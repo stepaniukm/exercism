@@ -1,0 +1,46 @@
+[0m[[0m[31merror[0m] [0m[0m/home/mateusz/Projekty/exercism/scala/say/src/test/scala/SayTest.scala:7:5: not found: value Say[0m
+[0m[[0m[31merror[0m] [0m[0m    Say.inEnglish(0) should be(Some("zero"))[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mateusz/Projekty/exercism/scala/say/src/test/scala/SayTest.scala:12:5: not found: value Say[0m
+[0m[[0m[31merror[0m] [0m[0m    Say.inEnglish(1) should be(Some("one"))[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mateusz/Projekty/exercism/scala/say/src/test/scala/SayTest.scala:17:5: not found: value Say[0m
+[0m[[0m[31merror[0m] [0m[0m    Say.inEnglish(14) should be(Some("fourteen"))[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mateusz/Projekty/exercism/scala/say/src/test/scala/SayTest.scala:22:5: not found: value Say[0m
+[0m[[0m[31merror[0m] [0m[0m    Say.inEnglish(20) should be(Some("twenty"))[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mateusz/Projekty/exercism/scala/say/src/test/scala/SayTest.scala:27:5: not found: value Say[0m
+[0m[[0m[31merror[0m] [0m[0m    Say.inEnglish(22) should be(Some("twenty-two"))[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mateusz/Projekty/exercism/scala/say/src/test/scala/SayTest.scala:32:5: not found: value Say[0m
+[0m[[0m[31merror[0m] [0m[0m    Say.inEnglish(100) should be(Some("one hundred"))[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mateusz/Projekty/exercism/scala/say/src/test/scala/SayTest.scala:37:5: not found: value Say[0m
+[0m[[0m[31merror[0m] [0m[0m    Say.inEnglish(123) should be(Some("one hundred twenty-three"))[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mateusz/Projekty/exercism/scala/say/src/test/scala/SayTest.scala:42:5: not found: value Say[0m
+[0m[[0m[31merror[0m] [0m[0m    Say.inEnglish(1000) should be(Some("one thousand"))[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mateusz/Projekty/exercism/scala/say/src/test/scala/SayTest.scala:47:5: not found: value Say[0m
+[0m[[0m[31merror[0m] [0m[0m    Say.inEnglish(1234) should be(Some("one thousand two hundred thirty-four"))[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mateusz/Projekty/exercism/scala/say/src/test/scala/SayTest.scala:52:5: not found: value Say[0m
+[0m[[0m[31merror[0m] [0m[0m    Say.inEnglish(1000000) should be(Some("one million"))[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mateusz/Projekty/exercism/scala/say/src/test/scala/SayTest.scala:57:5: not found: value Say[0m
+[0m[[0m[31merror[0m] [0m[0m    Say.inEnglish(1002345) should be(Some("one million two thousand three hundred forty-five"))[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mateusz/Projekty/exercism/scala/say/src/test/scala/SayTest.scala:62:5: not found: value Say[0m
+[0m[[0m[31merror[0m] [0m[0m    Say.inEnglish(1000000000) should be(Some("one billion"))[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mateusz/Projekty/exercism/scala/say/src/test/scala/SayTest.scala:67:5: not found: value Say[0m
+[0m[[0m[31merror[0m] [0m[0m    Say.inEnglish(987654321123l) should be(Some("nine hundred eighty-seven billion six hundred fifty-four million three hundred twenty-one thousand one hundred twenty-three"))[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mateusz/Projekty/exercism/scala/say/src/test/scala/SayTest.scala:72:5: not found: value Say[0m
+[0m[[0m[31merror[0m] [0m[0m    Say.inEnglish(-1) should be(None)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mateusz/Projekty/exercism/scala/say/src/test/scala/SayTest.scala:77:5: not found: value Say[0m
+[0m[[0m[31merror[0m] [0m[0m    Say.inEnglish(1000000000000l) should be(None)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m15 errors found[0m

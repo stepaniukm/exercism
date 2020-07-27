@@ -1,0 +1,4 @@
+[debug] [zebra-puzzle-test] Classpath dependencies List()
+[debug] [zebra-puzzle-test] Dependencies from configurations List(zebra-puzzle)
+[debug] Bloop wrote the configuration of project 'zebra-puzzle-test' to '/home/mateusz/Projekty/exercism/scala/zebra-puzzle/.bloop/zebra-puzzle-test.json'
+[success] Generated .bloop/zebra-puzzle-test.json

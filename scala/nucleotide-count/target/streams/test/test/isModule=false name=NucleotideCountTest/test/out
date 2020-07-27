@@ -1,0 +1,6 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mNucleotideCountTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- empty strand[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- can count one nucleotide in single-character input[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- strand with repeated nucleotide[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- strand with multiple nucleotides[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- strand with invalid nucleotides[0m[0m

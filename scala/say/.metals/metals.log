@@ -1,0 +1,2137 @@
+2020.07.21 07:04:05 INFO  started: Metals version 0.9.2 in workspace '/home/mateusz/Projekty/exercism/scala/say' for client vscode.
+2020.07.21 07:04:08 INFO  time: initialize in 2.73s
+2020.07.21 07:04:11 INFO  no build target: using presentation compiler with only scala-library
+2020.07.21 07:04:17 WARN  no build target for: /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala
+Jul 21, 2020 7:04:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+2020.07.21 07:04:17 WARN  no build target for: /home/mateusz/Projekty/exercism/scala/say/src/test/scala/SayTest.scala
+2020.07.21 07:04:17 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals2154549885743727805/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.07.21 07:04:17 INFO  skipping build import with status 'Started'
+2020.07.21 07:04:24 INFO  [info] welcome to sbt 1.3.13 (Ubuntu Java 11.0.7)
+2020.07.21 07:04:27 INFO  [info] loading global plugins from /home/mateusz/.sbt/1.0/plugins
+2020.07.21 07:04:31 INFO  [info] loading settings for project say-build from metals.sbt ...
+2020.07.21 07:04:31 INFO  [info] loading project definition from /home/mateusz/Projekty/exercism/scala/say/project
+2020.07.21 07:04:33 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+2020.07.21 07:04:35 INFO  [info] loading settings for project say from build.sbt ...
+2020.07.21 07:04:35 INFO  [info] set current project to say (in build file:/home/mateusz/Projekty/exercism/scala/say/)
+2020.07.21 07:04:39 WARN  no build target for: /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala
+2020.07.21 07:04:39 WARN  no build target for: /home/mateusz/Projekty/exercism/scala/say/src/test/scala/SayTest.scala
+2020.07.21 07:05:15 INFO  [error] lmcoursier.internal.shaded.coursier.error.FetchError$DownloadingArtifacts: Error fetching artifacts:
+2020.07.21 07:05:15 INFO  [error] https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1.jar: download error: Caught java.nio.file.NoSuchFileException: /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/.scalatest_2.12-3.0.1.jar.part -> /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1.jar (/home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/.scalatest_2.12-3.0.1.jar.part -> /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1.jar) while downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1.jar
+2020.07.21 07:05:15 INFO  [error] 
+2020.07.21 07:05:15 INFO  [error] 	at lmcoursier.internal.shaded.coursier.Artifacts$.$anonfun$fetchArtifacts$14(Artifacts.scala:302)
+2020.07.21 07:05:15 INFO  [error] 	at lmcoursier.internal.shaded.coursier.util.Task$.$anonfun$flatMap$2(Task.scala:14)
+2020.07.21 07:05:15 INFO  [error] 	at scala.concurrent.Future.$anonfun$flatMap$1(Future.scala:307)
+2020.07.21 07:05:15 INFO  [error] 	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+2020.07.21 07:05:15 INFO  [error] 	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+2020.07.21 07:05:15 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2020.07.21 07:05:15 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2020.07.21 07:05:15 INFO  [error] 	at java.base/java.lang.Thread.run(Thread.java:834)
+2020.07.21 07:05:15 INFO  [error] Caused by: lmcoursier.internal.shaded.coursier.cache.ArtifactError$DownloadError: download error: Caught java.nio.file.NoSuchFileException: /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/.scalatest_2.12-3.0.1.jar.part -> /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1.jar (/home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/.scalatest_2.12-3.0.1.jar.part -> /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1.jar) while downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1.jar
+2020.07.21 07:05:15 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache$.helper$2(FileCache.scala:1018)
+2020.07.21 07:05:15 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache$.coursier$cache$FileCache$$downloading(FileCache.scala:1032)
+2020.07.21 07:05:15 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache.doDownload$1(FileCache.scala:320)
+2020.07.21 07:05:15 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache.$anonfun$download$54(FileCache.scala:507)
+2020.07.21 07:05:15 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.CacheLocks$.loop$1(CacheLocks.scala:59)
+2020.07.21 07:05:15 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.CacheLocks$.withLockOr(CacheLocks.scala:84)
+2020.07.21 07:05:15 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache.$anonfun$download$32(FileCache.scala:508)
+2020.07.21 07:05:15 INFO  [error] 	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+2020.07.21 07:05:15 INFO  [error] 	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+2020.07.21 07:05:15 INFO  [error] 	at scala.util.Success.map(Try.scala:213)
+2020.07.21 07:05:15 INFO  [error] 	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+2020.07.21 07:05:15 INFO  [error] 	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+2020.07.21 07:05:15 INFO  [error] 	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+2020.07.21 07:05:15 INFO  [error] 	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+2020.07.21 07:05:15 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2020.07.21 07:05:15 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2020.07.21 07:05:15 INFO  [error] 	at java.base/java.lang.Thread.run(Thread.java:834)
+2020.07.21 07:05:15 INFO  [error] Caused by: java.nio.file.NoSuchFileException: /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/.scalatest_2.12-3.0.1.jar.part -> /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1.jar
+2020.07.21 07:05:15 INFO  [error] 	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+2020.07.21 07:05:15 INFO  [error] 	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+2020.07.21 07:05:15 INFO  [error] 	at java.base/sun.nio.fs.UnixCopyFile.move(UnixCopyFile.java:417)
+2020.07.21 07:05:15 INFO  [error] 	at java.base/sun.nio.fs.UnixFileSystemProvider.move(UnixFileSystemProvider.java:267)
+2020.07.21 07:05:15 INFO  [error] 	at java.base/java.nio.file.Files.move(Files.java:1421)
+2020.07.21 07:05:15 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache.$anonfun$download$46(FileCache.scala:412)
+2020.07.21 07:05:15 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.CacheLocks$$anon$1.call(CacheLocks.scala:22)
+2020.07.21 07:05:15 INFO  [error] 	at lmcoursier.internal.shaded.coursier.paths.CachePath.withStructureLock(CachePath.java:139)
+2020.07.21 07:05:15 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.CacheLocks$.withStructureLock(CacheLocks.scala:22)
+2020.07.21 07:05:15 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache.$anonfun$download$33(FileCache.scala:410)
+2020.07.21 07:05:15 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache$.$anonfun$downloading$1(FileCache.scala:998)
+2020.07.21 07:05:15 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.CacheLocks$.withUrlLock(CacheLocks.scala:102)
+2020.07.21 07:05:15 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache$.helper$2(FileCache.scala:998)
+2020.07.21 07:05:15 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache$.coursier$cache$FileCache$$downloading(FileCache.scala:1032)
+2020.07.21 07:05:15 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache.doDownload$1(FileCache.scala:320)
+2020.07.21 07:05:15 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache.$anonfun$download$54(FileCache.scala:507)
+2020.07.21 07:05:15 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.CacheLocks$.loop$1(CacheLocks.scala:59)
+2020.07.21 07:05:15 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.CacheLocks$.withLockOr(CacheLocks.scala:84)
+2020.07.21 07:05:15 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache.$anonfun$download$32(FileCache.scala:508)
+2020.07.21 07:05:15 INFO  [error] 	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+2020.07.21 07:05:15 INFO  [error] 	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+2020.07.21 07:05:15 INFO  [error] 	at scala.util.Success.map(Try.scala:213)
+2020.07.21 07:05:15 INFO  [error] 	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+2020.07.21 07:05:15 INFO  [error] 	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+2020.07.21 07:05:15 INFO  [error] 	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+2020.07.21 07:05:15 INFO  [error] 	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+2020.07.21 07:05:15 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2020.07.21 07:05:15 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2020.07.21 07:05:15 INFO  [error] 	at java.base/java.lang.Thread.run(Thread.java:834)
+2020.07.21 07:05:15 INFO  [error] (update) lmcoursier.internal.shaded.coursier.error.FetchError$DownloadingArtifacts: Error fetching artifacts:
+2020.07.21 07:05:15 INFO  [error] https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1.jar: download error: Caught java.nio.file.NoSuchFileException: /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/.scalatest_2.12-3.0.1.jar.part -> /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1.jar (/home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/.scalatest_2.12-3.0.1.jar.part -> /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1.jar) while downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1.jar
+2020.07.21 07:05:15 INFO  [error] Total time: 39 s, completed Jul 21, 2020, 7:05:15 AM
+2020.07.21 07:05:15 INFO  build tool exit: 1
+2020.07.21 07:05:15 INFO  time: ran 'sbt bloopInstall' in 57s
+2020.07.21 07:05:15 ERROR sbt command failed: /usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals2154549885743727805/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2020.07.21 07:06:57 WARN  no build target for: /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala
+2020.07.21 07:07:09 WARN  no build target for: /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala
+2020.07.21 07:07:41 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals14922664224247791153/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.07.21 07:07:45 INFO  [info] welcome to sbt 1.3.13 (Ubuntu Java 11.0.7)
+2020.07.21 07:07:47 INFO  [info] loading global plugins from /home/mateusz/.sbt/1.0/plugins
+2020.07.21 07:07:49 INFO  [info] loading settings for project say-build from metals.sbt ...
+2020.07.21 07:07:49 INFO  [info] loading project definition from /home/mateusz/Projekty/exercism/scala/say/project
+2020.07.21 07:07:49 INFO  [info] loading settings for project say from build.sbt ...
+2020.07.21 07:07:50 INFO  [info] set current project to say (in build file:/home/mateusz/Projekty/exercism/scala/say/)
+2020.07.21 07:07:58 INFO  [success] Generated .bloop/say-test.json
+2020.07.21 07:07:58 INFO  [success] Generated .bloop/say.json
+2020.07.21 07:07:58 INFO  [success] Total time: 7 s, completed Jul 21, 2020, 7:07:58 AM
+2020.07.21 07:07:58 INFO  build tool exit: 0
+2020.07.21 07:07:59 INFO  time: ran 'sbt bloopInstall' in 17s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher10286711590227680437/bsp.socket'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.3...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading 2 projects from '/home/mateusz/Projekty/exercism/scala/say/.bloop'...
+[0m[32m[D][0m Loading project from '/home/mateusz/Projekty/exercism/scala/say/.bloop/say.json'
+[0m[32m[D][0m Loading project from '/home/mateusz/Projekty/exercism/scala/say/.bloop/say-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.8.
+[0m[32m[D][0m   => /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar
+[0m[32m[D][0m   => /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar
+[0m[32m[D][0m   => /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.8/scala-compiler-2.12.8.jar
+[0m[32m[D][0m   => /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar
+[0m[32m[D][0m   => /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.jar
+[0m[32m[D][0m Missing analysis file for project 'say'
+[0m[32m[D][0m Missing analysis file for project 'say-test'
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher10286711590227680437/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher10286711590227680437/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.07.21 07:08:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mateusz/.cache/metals/bsp.trace.json
+2020.07.21 07:08:07 ERROR Timeout waiting for 'build/initialize' response
+2020.07.21 07:08:07 ERROR Failed to connect with build server, no functionality will work.
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1886)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2021)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:309)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:249)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+2020.07.21 07:08:10 WARN  no build target for: /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala
+2020.07.21 07:08:12 WARN  no build target for: /home/mateusz/Projekty/exercism/scala/say/src/test/scala/SayTest.scala
+2020.07.21 07:08:39 WARN  no build target for: /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala
+2020.07.21 07:08:44 WARN  no build target for: /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala
+2020.07.21 07:08:49 WARN  no build target for: /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala
+2020.07.21 07:08:51 WARN  code navigation does not work for the file '/home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala' because it doesn't belong to a build target.
+2020.07.21 07:08:51 WARN  no build target for: /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala
+2020.07.21 07:08:51 WARN  code navigation does not work for the file '/home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala' because it doesn't belong to a build target.
+2020.07.21 07:09:35 WARN  no build target for: /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala
+2020.07.21 07:09:44 WARN  no build target for: /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala
+2020.07.21 07:09:44 WARN  code navigation does not work for the file '/home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala' because it doesn't belong to a build target.
+2020.07.21 07:09:46 WARN  no build target for: /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala
+2020.07.21 07:10:40 WARN  no build target for: /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala
+2020.07.21 07:10:53 WARN  no build target for: /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala
+2020.07.21 07:11:00 WARN  no build target for: /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala
+2020.07.21 07:11:02 WARN  no build target for: /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala
+2020.07.21 07:11:04 WARN  no build target for: /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala
+2020.07.21 07:11:08 WARN  no build target for: /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala
+2020.07.21 07:11:10 WARN  no build target for: /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala
+2020.07.21 07:11:10 WARN  no build target for: /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala
+2020.07.21 07:11:42 WARN  no build target for: /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala
+2020.07.21 07:12:15 INFO  shutting down Metals
+2020.07.21 07:12:28 INFO  started: Metals version 0.9.2 in workspace '/home/mateusz/Projekty/exercism/scala/say' for client vscode.
+2020.07.21 07:12:30 INFO  time: initialize in 2s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher13365506181899325826/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.07.21 07:12:31 INFO  no build target: using presentation compiler with only scala-library
+2020.07.21 07:12:31 INFO  skipping build import with status 'Installed'
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher13365506181899325826/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher13365506181899325826/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.07.21 07:12:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mateusz/.cache/metals/bsp.trace.json
+2020.07.21 07:12:32 INFO  time: connected to build server in 0.84s
+2020.07.21 07:12:32 INFO  Connected to Build server v1.4.3
+2020.07.21 07:12:32 INFO  time: imported build in 0.18s
+2020.07.21 07:12:35 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.07.21 07:12:37 INFO  compiling say (1 scala source)
+2020.07.21 07:12:39 INFO  time: indexed workspace in 7.45s
+2020.07.21 07:12:39 INFO  Deduplicating compilation of say from bsp client 'Metals 0.9.2' (since 7.856s)
+2020.07.21 07:12:39 INFO  compiling say (1 scala source)
+2020.07.21 07:12:57 INFO  time: compiled say in 17s
+2020.07.21 07:13:03 INFO  compiling say (1 scala source)
+2020.07.21 07:13:03 INFO  time: compiled say in 0.3s
+2020.07.21 07:13:03 INFO  compiling say (1 scala source)
+2020.07.21 07:13:03 INFO  time: compiled say in 0.2s
+2020.07.21 07:13:20 INFO  compiling say (1 scala source)
+2020.07.21 07:13:20 INFO  time: compiled say in 0.19s
+2020.07.21 07:13:20 INFO  compiling say (1 scala source)
+2020.07.21 07:13:20 INFO  time: compiled say in 0.19s
+2020.07.21 07:13:24 INFO  compiling say (1 scala source)
+2020.07.21 07:13:24 INFO  time: compiled say in 0.22s
+2020.07.21 07:13:24 INFO  compiling say (1 scala source)
+2020.07.21 07:13:24 INFO  time: compiled say in 0.21s
+2020.07.21 07:13:34 INFO  compiling say (1 scala source)
+2020.07.21 07:13:34 INFO  time: compiled say in 0.15s
+2020.07.21 07:13:34 INFO  compiling say (1 scala source)
+2020.07.21 07:13:34 INFO  time: compiled say in 0.14s
+2020.07.21 07:13:46 INFO  compiling say (1 scala source)
+2020.07.21 07:13:47 INFO  time: compiled say in 1.37s
+2020.07.21 07:13:57 INFO  compiling say-test (1 scala source)
+2020.07.21 07:13:58 INFO  time: compiled say-test in 1.52s
+2020.07.21 07:14:57 INFO  compiling say (1 scala source)
+2020.07.21 07:14:57 INFO  time: compiled say in 0.14s
+2020.07.21 07:14:57 INFO  compiling say (1 scala source)
+2020.07.21 07:14:57 INFO  time: compiled say in 88ms
+2020.07.21 07:15:08 INFO  compiling say (1 scala source)
+2020.07.21 07:15:08 INFO  time: compiled say in 70ms
+2020.07.21 07:15:08 INFO  compiling say (1 scala source)
+2020.07.21 07:15:08 INFO  time: compiled say in 74ms
+2020.07.21 07:15:16 INFO  compiling say (1 scala source)
+2020.07.21 07:15:16 INFO  time: compiled say in 0.11s
+2020.07.21 07:15:16 INFO  compiling say (1 scala source)
+2020.07.21 07:15:16 INFO  time: compiled say in 70ms
+2020.07.21 07:15:25 INFO  compiling say (1 scala source)
+2020.07.21 07:15:25 INFO  time: compiled say in 0.1s
+2020.07.21 07:15:25 INFO  compiling say (1 scala source)
+2020.07.21 07:15:25 INFO  time: compiled say in 0.11s
+2020.07.21 07:15:28 INFO  compiling say (1 scala source)
+2020.07.21 07:15:28 INFO  time: compiled say in 68ms
+2020.07.21 07:15:32 INFO  compiling say (1 scala source)
+2020.07.21 07:15:32 INFO  time: compiled say in 64ms
+2020.07.21 07:15:32 INFO  compiling say (1 scala source)
+2020.07.21 07:15:32 INFO  time: compiled say in 53ms
+2020.07.21 07:15:49 INFO  compiling say (1 scala source)
+2020.07.21 07:15:49 INFO  time: compiled say in 56ms
+2020.07.21 07:15:49 INFO  compiling say (1 scala source)
+2020.07.21 07:15:49 INFO  time: compiled say in 50ms
+2020.07.21 07:15:55 INFO  compiling say (1 scala source)
+2020.07.21 07:15:55 INFO  time: compiled say in 47ms
+2020.07.21 07:15:55 INFO  compiling say (1 scala source)
+2020.07.21 07:15:55 INFO  time: compiled say in 69ms
+2020.07.21 07:16:02 INFO  compiling say (1 scala source)
+2020.07.21 07:16:02 INFO  time: compiled say in 55ms
+2020.07.21 07:16:02 INFO  compiling say (1 scala source)
+2020.07.21 07:16:02 INFO  time: compiled say in 44ms
+2020.07.21 07:16:09 INFO  compiling say (1 scala source)
+2020.07.21 07:16:09 INFO  time: compiled say in 46ms
+2020.07.21 07:16:25 INFO  compiling say (1 scala source)
+2020.07.21 07:16:25 INFO  time: compiled say in 65ms
+2020.07.21 07:16:25 INFO  compiling say (1 scala source)
+2020.07.21 07:16:25 INFO  time: compiled say in 44ms
+2020.07.21 07:16:29 INFO  compiling say (1 scala source)
+2020.07.21 07:16:29 INFO  time: compiled say in 48ms
+2020.07.21 07:16:29 INFO  compiling say (1 scala source)
+2020.07.21 07:16:29 INFO  time: compiled say in 46ms
+2020.07.21 07:16:33 INFO  compiling say (1 scala source)
+2020.07.21 07:16:33 INFO  time: compiled say in 46ms
+2020.07.21 07:16:33 INFO  compiling say (1 scala source)
+2020.07.21 07:16:33 INFO  time: compiled say in 45ms
+2020.07.21 07:16:36 INFO  compiling say (1 scala source)
+2020.07.21 07:16:36 INFO  time: compiled say in 0.37s
+2020.07.21 07:16:41 INFO  compiling say (1 scala source)
+2020.07.21 07:16:41 INFO  time: compiled say in 0.34s
+2020.07.21 07:16:42 INFO  compiling say (1 scala source)
+2020.07.21 07:16:42 INFO  time: compiled say in 0.35s
+2020.07.21 07:16:51 INFO  compiling say (1 scala source)
+2020.07.21 07:16:51 INFO  time: compiled say in 64ms
+2020.07.21 07:16:51 INFO  compiling say (1 scala source)
+2020.07.21 07:16:51 INFO  time: compiled say in 51ms
+2020.07.21 07:16:57 INFO  compiling say (1 scala source)
+2020.07.21 07:16:57 INFO  time: compiled say in 0.32s
+2020.07.21 07:17:05 INFO  compiling say (1 scala source)
+2020.07.21 07:17:05 INFO  time: compiled say in 0.35s
+2020.07.21 07:17:18 INFO  compiling say (1 scala source)
+2020.07.21 07:17:18 INFO  time: compiled say in 73ms
+2020.07.21 07:17:18 INFO  compiling say (1 scala source)
+2020.07.21 07:17:18 INFO  time: compiled say in 44ms
+2020.07.21 07:17:24 INFO  compiling say (1 scala source)
+2020.07.21 07:17:24 INFO  time: compiled say in 75ms
+2020.07.21 07:17:24 INFO  compiling say (1 scala source)
+2020.07.21 07:17:24 INFO  time: compiled say in 38ms
+Jul 21, 2020 7:17:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 649
+Jul 21, 2020 7:17:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 650
+Jul 21, 2020 7:17:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 651
+2020.07.21 07:17:38 INFO  compiling say (1 scala source)
+2020.07.21 07:17:38 INFO  time: compiled say in 0.16s
+2020.07.21 07:17:38 INFO  compiling say (1 scala source)
+2020.07.21 07:17:38 INFO  time: compiled say in 0.14s
+2020.07.21 07:17:40 INFO  compiling say (1 scala source)
+2020.07.21 07:17:40 INFO  time: compiled say in 0.13s
+2020.07.21 07:17:56 INFO  compiling say (1 scala source)
+2020.07.21 07:17:56 INFO  time: compiled say in 86ms
+2020.07.21 07:17:56 INFO  compiling say (1 scala source)
+2020.07.21 07:17:56 INFO  time: compiled say in 87ms
+Jul 21, 2020 7:17:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 719
+Jul 21, 2020 7:18:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 743
+2020.07.21 07:18:03 INFO  compiling say (1 scala source)
+Jul 21, 2020 7:18:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 747
+Jul 21, 2020 7:18:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 748
+Jul 21, 2020 7:18:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 749
+2020.07.21 07:18:03 INFO  time: compiled say in 0.16s
+Jul 21, 2020 7:18:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 752
+2020.07.21 07:18:03 INFO  compiling say (1 scala source)
+2020.07.21 07:18:03 INFO  time: compiled say in 0.15s
+Jul 21, 2020 7:18:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 766
+2020.07.21 07:18:12 INFO  compiling say (1 scala source)
+2020.07.21 07:18:12 INFO  time: compiled say in 98ms
+2020.07.21 07:18:12 INFO  compiling say (1 scala source)
+2020.07.21 07:18:12 INFO  time: compiled say in 0.12s
+2020.07.21 07:18:21 INFO  compiling say (1 scala source)
+2020.07.21 07:18:21 INFO  time: compiled say in 0.39s
+2020.07.21 07:18:54 INFO  compiling say (1 scala source)
+2020.07.21 07:18:54 INFO  time: compiled say in 0.12s
+2020.07.21 07:18:54 INFO  compiling say (1 scala source)
+2020.07.21 07:18:54 INFO  time: compiled say in 0.13s
+2020.07.21 07:19:00 INFO  compiling say (1 scala source)
+2020.07.21 07:19:00 INFO  time: compiled say in 0.11s
+2020.07.21 07:19:00 INFO  compiling say (1 scala source)
+2020.07.21 07:19:00 INFO  time: compiled say in 0.18s
+2020.07.21 07:19:04 INFO  compiling say (1 scala source)
+2020.07.21 07:19:04 INFO  time: compiled say in 52ms
+2020.07.21 07:19:04 INFO  compiling say (1 scala source)
+2020.07.21 07:19:04 INFO  time: compiled say in 42ms
+2020.07.21 07:19:07 INFO  compiling say (1 scala source)
+2020.07.21 07:19:07 INFO  time: compiled say in 41ms
+something's wrong: no file:///home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala in Option[String]RangePosition(file:///home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala, 113, 113, 127)
+2020.07.21 07:19:22 INFO  compiling say (1 scala source)
+2020.07.21 07:19:22 INFO  time: compiled say in 0.12s
+2020.07.21 07:19:22 INFO  compiling say (1 scala source)
+2020.07.21 07:19:22 INFO  time: compiled say in 0.17s
+2020.07.21 07:19:33 INFO  compiling say (1 scala source)
+2020.07.21 07:19:33 INFO  time: compiled say in 93ms
+2020.07.21 07:19:33 INFO  compiling say (1 scala source)
+2020.07.21 07:19:33 INFO  time: compiled say in 0.12s
+2020.07.21 07:19:39 INFO  compiling say (1 scala source)
+2020.07.21 07:19:39 INFO  time: compiled say in 0.11s
+2020.07.21 07:19:39 INFO  compiling say (1 scala source)
+2020.07.21 07:19:39 INFO  time: compiled say in 0.11s
+2020.07.21 07:19:44 INFO  compiling say (1 scala source)
+2020.07.21 07:19:44 INFO  time: compiled say in 50ms
+2020.07.21 07:19:44 INFO  compiling say (1 scala source)
+2020.07.21 07:19:44 INFO  time: compiled say in 44ms
+2020.07.21 07:19:49 INFO  compiling say (1 scala source)
+2020.07.21 07:19:49 INFO  time: compiled say in 0.11s
+2020.07.21 07:19:49 INFO  compiling say (1 scala source)
+2020.07.21 07:19:49 INFO  time: compiled say in 0.1s
+2020.07.21 07:19:55 INFO  compiling say (1 scala source)
+2020.07.21 07:19:55 INFO  time: compiled say in 0.11s
+2020.07.21 07:19:55 INFO  compiling say (1 scala source)
+2020.07.21 07:19:55 INFO  time: compiled say in 86ms
+2020.07.21 07:20:02 INFO  compiling say (1 scala source)
+2020.07.21 07:20:02 INFO  time: compiled say in 0.15s
+2020.07.21 07:20:02 INFO  compiling say (1 scala source)
+2020.07.21 07:20:02 INFO  time: compiled say in 0.2s
+2020.07.21 07:20:18 INFO  compiling say (1 scala source)
+2020.07.21 07:20:18 INFO  time: compiled say in 0.17s
+2020.07.21 07:20:18 INFO  compiling say (1 scala source)
+2020.07.21 07:20:18 INFO  time: compiled say in 0.17s
+2020.07.21 07:20:34 INFO  compiling say (1 scala source)
+2020.07.21 07:20:34 INFO  time: compiled say in 48ms
+2020.07.21 07:20:34 INFO  compiling say (1 scala source)
+2020.07.21 07:20:34 INFO  time: compiled say in 45ms
+2020.07.21 07:20:38 INFO  compiling say (1 scala source)
+2020.07.21 07:20:38 INFO  time: compiled say in 0.29s
+2020.07.21 07:21:20 INFO  compiling say (1 scala source)
+2020.07.21 07:21:20 INFO  time: compiled say in 60ms
+2020.07.21 07:21:20 INFO  compiling say (1 scala source)
+2020.07.21 07:21:20 INFO  time: compiled say in 37ms
+2020.07.21 07:21:25 INFO  compiling say (1 scala source)
+2020.07.21 07:21:25 INFO  time: compiled say in 0.35s
+2020.07.21 07:22:20 INFO  compiling say (1 scala source)
+2020.07.21 07:22:20 INFO  time: compiled say in 66ms
+2020.07.21 07:22:20 INFO  compiling say (1 scala source)
+2020.07.21 07:22:20 INFO  time: compiled say in 60ms
+Jul 21, 2020 7:22:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1479
+Jul 21, 2020 7:22:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1480
+2020.07.21 07:22:47 INFO  compiling say (1 scala source)
+2020.07.21 07:22:47 INFO  time: compiled say in 0.35s
+2020.07.21 07:23:19 INFO  compiling say (1 scala source)
+2020.07.21 07:23:19 INFO  time: compiled say in 0.32s
+2020.07.21 07:23:52 INFO  compiling say (1 scala source)
+2020.07.21 07:23:52 INFO  time: compiled say in 87ms
+2020.07.21 07:23:52 INFO  compiling say (1 scala source)
+2020.07.21 07:23:52 INFO  time: compiled say in 89ms
+2020.07.21 07:23:55 INFO  compiling say (1 scala source)
+2020.07.21 07:23:55 INFO  time: compiled say in 88ms
+2020.07.21 07:24:18 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+2020.07.22 11:40:42 INFO  started: Metals version 0.9.2 in workspace '/home/mateusz/Projekty/exercism/scala/say' for client vscode.
+2020.07.22 11:40:45 INFO  time: initialize in 2.98s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher6146596522464852148/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.07.22 11:40:47 INFO  no build target: using presentation compiler with only scala-library
+2020.07.22 11:40:47 INFO  skipping build import with status 'Installed'
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+2020.07.22 11:40:54 WARN  no build target for: /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala
+2020.07.22 11:40:54 INFO  shutting down Metals
+Waiting for the bsp connection to come up...
+java.util.concurrent.RejectedExecutionException: Task scala.concurrent.impl.CallbackRunnable@3021da62 rejected from java.util.concurrent.ThreadPoolExecutor@450a0fbf[Shutting down, pool size = 4, active threads = 4, queued tasks = 0, completed tasks = 22]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$4.execute(ExecutionContextImpl.scala:138)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.java8.FuturesConvertersImpl$P.accept(FutureConvertersImpl.scala:99)
+	at scala.concurrent.java8.FuturesConvertersImpl$P.accept(FutureConvertersImpl.scala:97)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:859)
+	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:837)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1705)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+java.util.concurrent.RejectedExecutionException: Task scala.concurrent.impl.CallbackRunnable@7956e3d0 rejected from java.util.concurrent.ThreadPoolExecutor@450a0fbf[Shutting down, pool size = 3, active threads = 3, queued tasks = 0, completed tasks = 23]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$4.execute(ExecutionContextImpl.scala:138)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.java8.FuturesConvertersImpl$P.accept(FutureConvertersImpl.scala:99)
+	at scala.concurrent.java8.FuturesConvertersImpl$P.accept(FutureConvertersImpl.scala:97)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:859)
+	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:837)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1705)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+java.util.concurrent.RejectedExecutionException: Task scala.concurrent.impl.CallbackRunnable@3be34aa3 rejected from java.util.concurrent.ThreadPoolExecutor@450a0fbf[Shutting down, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 24]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$4.execute(ExecutionContextImpl.scala:138)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.java8.FuturesConvertersImpl$P.accept(FutureConvertersImpl.scala:99)
+	at scala.concurrent.java8.FuturesConvertersImpl$P.accept(FutureConvertersImpl.scala:97)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:859)
+	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:837)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1705)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.3...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/mateusz/Projekty/exercism/scala/say/.bloop'...
+[0m[32m[D][0m Loading project from '/home/mateusz/Projekty/exercism/scala/say/.bloop/say.json'
+[0m[32m[D][0m Loading project from '/home/mateusz/Projekty/exercism/scala/say/.bloop/say-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.8.
+[0m[32m[D][0m   => /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar
+[0m[32m[D][0m   => /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar
+[0m[32m[D][0m   => /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.8/scala-compiler-2.12.8.jar
+[0m[32m[D][0m   => /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar
+[0m[32m[D][0m   => /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'say-test', 'say'
+[0m[32m[D][0m Loading previous analysis for 'say-test' from '/home/mateusz/Projekty/exercism/scala/say/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip'.
+[0m[32m[D][0m Loading previous analysis for 'say' from '/home/mateusz/Projekty/exercism/scala/say/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher6146596522464852148/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher6146596522464852148/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+java.util.concurrent.RejectedExecutionException: Task scala.concurrent.impl.CallbackRunnable@4ea67a68 rejected from java.util.concurrent.ThreadPoolExecutor@450a0fbf[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 25]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$4.execute(ExecutionContextImpl.scala:138)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.Promise.success(Promise.scala:86)
+	at scala.concurrent.Promise.success$(Promise.scala:86)
+	at scala.concurrent.impl.Promise$DefaultPromise.success(Promise.scala:187)
+	at bloop.launcher.bsp.BspBridge.wireBspConnectionStreams(BspBridge.scala:253)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:109)
+	at scala.meta.internal.metals.BloopServers$$anon$1.run(BloopServers.scala:110)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020.07.24 20:34:53 INFO  started: Metals version 0.9.2 in workspace '/home/mateusz/Projekty/exercism/scala/say' for client vscode.
+2020.07.24 20:34:57 INFO  time: initialize in 3.34s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher1836934433900049667/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.07.24 20:34:58 INFO  no build target: using presentation compiler with only scala-library
+2020.07.24 20:34:58 INFO  skipping build import with status 'Installed'
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+2020.07.24 20:35:07 WARN  no build target for: /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.3...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/mateusz/Projekty/exercism/scala/say/.bloop'...
+[0m[32m[D][0m Loading project from '/home/mateusz/Projekty/exercism/scala/say/.bloop/say.json'
+[0m[32m[D][0m Loading project from '/home/mateusz/Projekty/exercism/scala/say/.bloop/say-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.8.
+[0m[32m[D][0m   => /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar
+[0m[32m[D][0m   => /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar
+[0m[32m[D][0m   => /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.8/scala-compiler-2.12.8.jar
+[0m[32m[D][0m   => /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar
+[0m[32m[D][0m   => /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'say', 'say-test'
+[0m[32m[D][0m Loading previous analysis for 'say' from '/home/mateusz/Projekty/exercism/scala/say/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip'.
+[0m[32m[D][0m Loading previous analysis for 'say-test' from '/home/mateusz/Projekty/exercism/scala/say/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher1836934433900049667/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher1836934433900049667/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.07.24 20:35:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mateusz/.cache/metals/bsp.trace.json
+2020.07.24 20:35:10 INFO  time: connected to build server in 11s
+2020.07.24 20:35:10 INFO  Connected to Build server v1.4.3
+2020.07.24 20:35:09 INFO  time: imported build in 0.26s
+2020.07.24 20:35:12 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.07.24 20:35:12 INFO  time: indexed workspace in 2.72s
+2020.07.24 20:35:15 INFO  compiling say (1 scala source)
+2020.07.24 20:35:23 INFO  time: compiled say in 7.37s
+2020.07.24 20:35:50 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2020.07.25 22:54:38 INFO  started: Metals version 0.9.2 in workspace '/home/mateusz/Projekty/exercism/scala/say' for client vscode.
+2020.07.25 22:54:39 INFO  time: initialize in 1.91s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher15248006082209956247/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.07.25 22:54:40 INFO  no build target: using presentation compiler with only scala-library
+2020.07.25 22:54:40 INFO  skipping build import with status 'Installed'
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+2020.07.25 22:54:45 WARN  no build target for: /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.3...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/mateusz/Projekty/exercism/scala/say/.bloop'...
+[0m[32m[D][0m Loading project from '/home/mateusz/Projekty/exercism/scala/say/.bloop/say-test.json'
+[0m[32m[D][0m Loading project from '/home/mateusz/Projekty/exercism/scala/say/.bloop/say.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.8.
+[0m[32m[D][0m   => /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar
+[0m[32m[D][0m   => /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar
+[0m[32m[D][0m   => /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.8/scala-compiler-2.12.8.jar
+[0m[32m[D][0m   => /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar
+[0m[32m[D][0m   => /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'say', 'say-test'
+[0m[32m[D][0m Loading previous analysis for 'say' from '/home/mateusz/Projekty/exercism/scala/say/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip'.
+[0m[32m[D][0m Loading previous analysis for 'say-test' from '/home/mateusz/Projekty/exercism/scala/say/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher15248006082209956247/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher15248006082209956247/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.07.25 22:54:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mateusz/.cache/metals/bsp.trace.json
+2020.07.25 22:54:48 INFO  time: connected to build server in 7.35s
+2020.07.25 22:54:48 INFO  Connected to Build server v1.4.3
+2020.07.25 22:54:47 INFO  time: imported build in 0.11s
+2020.07.25 22:54:49 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.07.25 22:54:49 INFO  time: indexed workspace in 1.25s
+2020.07.25 22:54:50 INFO  compiling say (1 scala source)
+2020.07.25 22:54:56 INFO  time: compiled say in 5.33s
+2020.07.25 22:54:56 INFO  compiling say (1 scala source)
+2020.07.25 22:54:56 INFO  time: compiled say in 0.32s
+2020.07.25 22:54:56 INFO  compiling say (1 scala source)
+2020.07.25 22:54:57 INFO  time: compiled say in 0.2s
+Jul 25, 2020 10:55:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 72
+Jul 25, 2020 10:55:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 71
+2020.07.25 22:55:51 INFO  compiling say (1 scala source)
+2020.07.25 22:55:51 INFO  time: compiled say in 0.35s
+2020.07.25 22:55:51 INFO  compiling say (1 scala source)
+2020.07.25 22:55:51 INFO  time: compiled say in 0.24s
+2020.07.25 22:55:59 INFO  compiling say (1 scala source)
+2020.07.25 22:55:59 INFO  time: compiled say in 0.26s
+2020.07.25 22:55:59 INFO  compiling say (1 scala source)
+2020.07.25 22:55:59 INFO  time: compiled say in 0.28s
+2020.07.25 22:56:05 INFO  compiling say (1 scala source)
+2020.07.25 22:56:05 INFO  time: compiled say in 0.22s
+2020.07.25 22:56:05 INFO  compiling say (1 scala source)
+2020.07.25 22:56:05 INFO  time: compiled say in 0.22s
+2020.07.25 22:56:20 INFO  compiling say (1 scala source)
+2020.07.25 22:56:20 INFO  time: compiled say in 0.17s
+2020.07.25 22:56:20 INFO  compiling say (1 scala source)
+2020.07.25 22:56:20 INFO  time: compiled say in 0.18s
+2020.07.25 22:56:43 INFO  compiling say (1 scala source)
+2020.07.25 22:56:43 INFO  time: compiled say in 0.16s
+2020.07.25 22:56:43 INFO  compiling say (1 scala source)
+2020.07.25 22:56:43 INFO  time: compiled say in 0.17s
+2020.07.25 22:56:48 INFO  compiling say (1 scala source)
+2020.07.25 22:56:50 INFO  time: compiled say in 2.13s
+2020.07.25 22:57:53 INFO  compiling say (1 scala source)
+2020.07.25 22:57:53 INFO  time: compiled say in 0.72s
+2020.07.25 22:58:29 INFO  compiling say (1 scala source)
+2020.07.25 22:58:29 INFO  time: compiled say in 0.62s
+2020.07.25 22:58:32 INFO  compiling say (1 scala source)
+2020.07.25 22:58:32 INFO  time: compiled say in 0.6s
+something's wrong: no file:///home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala in Option[String]RangePosition(file:///home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala, 255, 255, 269)
+2020.07.25 22:58:45 INFO  compiling say (1 scala source)
+2020.07.25 22:58:45 INFO  time: compiled say in 98ms
+2020.07.25 22:58:45 INFO  compiling say (1 scala source)
+2020.07.25 22:58:45 INFO  time: compiled say in 76ms
+Jul 25, 2020 10:58:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 616
+Jul 25, 2020 10:58:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 617
+2020.07.25 22:58:53 INFO  compiling say (1 scala source)
+2020.07.25 22:58:53 INFO  time: compiled say in 76ms
+2020.07.25 22:58:53 INFO  compiling say (1 scala source)
+2020.07.25 22:58:53 INFO  time: compiled say in 60ms
+2020.07.25 22:59:01 INFO  compiling say (1 scala source)
+2020.07.25 22:59:01 INFO  time: compiled say in 64ms
+2020.07.25 22:59:01 INFO  compiling say (1 scala source)
+2020.07.25 22:59:01 INFO  time: compiled say in 66ms
+2020.07.25 22:59:05 INFO  compiling say (1 scala source)
+2020.07.25 22:59:05 INFO  time: compiled say in 84ms
+2020.07.25 22:59:05 INFO  compiling say (1 scala source)
+2020.07.25 22:59:05 INFO  time: compiled say in 50ms
+2020.07.25 22:59:14 INFO  compiling say (1 scala source)
+2020.07.25 22:59:14 INFO  time: compiled say in 0.32s
+2020.07.25 22:59:14 INFO  compiling say (1 scala source)
+2020.07.25 22:59:14 INFO  time: compiled say in 0.24s
+2020.07.25 22:59:22 INFO  compiling say (1 scala source)
+2020.07.25 22:59:22 INFO  time: compiled say in 0.25s
+2020.07.25 22:59:22 INFO  compiling say (1 scala source)
+2020.07.25 22:59:22 INFO  time: compiled say in 0.19s
+2020.07.25 22:59:36 INFO  compiling say (1 scala source)
+2020.07.25 22:59:36 INFO  time: compiled say in 0.17s
+2020.07.25 22:59:40 INFO  compiling say (1 scala source)
+2020.07.25 22:59:40 INFO  time: compiled say in 0.14s
+2020.07.25 22:59:40 INFO  compiling say (1 scala source)
+2020.07.25 22:59:40 INFO  time: compiled say in 0.2s
+2020.07.25 22:59:48 INFO  compiling say (1 scala source)
+2020.07.25 22:59:48 INFO  time: compiled say in 0.16s
+2020.07.25 22:59:48 INFO  compiling say (1 scala source)
+2020.07.25 22:59:48 INFO  time: compiled say in 0.21s
+2020.07.25 22:59:58 INFO  compiling say (1 scala source)
+2020.07.25 22:59:58 INFO  time: compiled say in 0.85s
+2020.07.25 23:00:22 INFO  compiling say (1 scala source)
+2020.07.25 23:00:22 INFO  time: compiled say in 70ms
+2020.07.25 23:00:22 INFO  compiling say (1 scala source)
+2020.07.25 23:00:22 INFO  time: compiled say in 62ms
+2020.07.25 23:00:24 INFO  compiling say (1 scala source)
+2020.07.25 23:00:24 INFO  time: compiled say in 0.88s
+2020.07.25 23:01:06 INFO  compiling say (1 scala source)
+2020.07.25 23:01:06 INFO  time: compiled say in 0.23s
+2020.07.25 23:01:06 INFO  compiling say (1 scala source)
+2020.07.25 23:01:06 INFO  time: compiled say in 0.21s
+2020.07.25 23:01:10 INFO  compiling say (1 scala source)
+2020.07.25 23:01:10 INFO  time: compiled say in 0.78s
+2020.07.25 23:01:14 INFO  compiling say (1 scala source)
+2020.07.25 23:01:14 INFO  time: compiled say in 0.43s
+2020.07.25 23:01:23 INFO  compiling say (1 scala source)
+2020.07.25 23:01:23 INFO  time: compiled say in 0.42s
+2020.07.25 23:01:31 INFO  compiling say (1 scala source)
+2020.07.25 23:01:31 INFO  time: compiled say in 0.44s
+2020.07.25 23:02:05 INFO  compiling say (1 scala source)
+2020.07.25 23:02:05 INFO  time: compiled say in 0.41s
+2020.07.25 23:02:12 INFO  compiling say (1 scala source)
+2020.07.25 23:02:12 INFO  time: compiled say in 0.39s
+2020.07.25 23:02:16 INFO  compiling say (1 scala source)
+2020.07.25 23:02:16 INFO  time: compiled say in 0.33s
+2020.07.25 23:02:21 INFO  compiling say (1 scala source)
+2020.07.25 23:02:21 INFO  time: compiled say in 0.36s
+2020.07.25 23:02:29 INFO  compiling say (1 scala source)
+2020.07.25 23:02:29 INFO  time: compiled say in 0.42s
+2020.07.25 23:03:14 INFO  compiling say (1 scala source)
+2020.07.25 23:03:14 INFO  time: compiled say in 0.36s
+2020.07.25 23:03:47 INFO  compiling say (1 scala source)
+2020.07.25 23:03:47 INFO  time: compiled say in 0.37s
+2020.07.25 23:03:53 INFO  compiling say (1 scala source)
+2020.07.25 23:03:53 INFO  time: compiled say in 0.41s
+2020.07.25 23:03:58 INFO  compiling say (1 scala source)
+2020.07.25 23:03:58 INFO  time: compiled say in 0.35s
+2020.07.25 23:04:06 INFO  compiling say (1 scala source)
+2020.07.25 23:04:06 INFO  time: compiled say in 0.37s
+2020.07.25 23:04:12 INFO  compiling say (1 scala source)
+2020.07.25 23:04:12 INFO  time: compiled say in 0.27s
+2020.07.25 23:04:44 INFO  compiling say (1 scala source)
+2020.07.25 23:04:44 INFO  time: compiled say in 0.14s
+2020.07.25 23:04:44 INFO  compiling say (1 scala source)
+2020.07.25 23:04:44 INFO  time: compiled say in 0.14s
+2020.07.25 23:04:52 INFO  compiling say (1 scala source)
+2020.07.25 23:04:52 INFO  time: compiled say in 67ms
+2020.07.25 23:04:52 INFO  compiling say (1 scala source)
+2020.07.25 23:04:52 INFO  time: compiled say in 45ms
+2020.07.25 23:05:01 INFO  compiling say (1 scala source)
+2020.07.25 23:05:01 INFO  time: compiled say in 0.13s
+2020.07.25 23:05:01 INFO  compiling say (1 scala source)
+2020.07.25 23:05:01 INFO  time: compiled say in 0.14s
+2020.07.25 23:05:06 INFO  compiling say (1 scala source)
+2020.07.25 23:05:06 INFO  time: compiled say in 68ms
+2020.07.25 23:05:06 INFO  compiling say (1 scala source)
+2020.07.25 23:05:06 INFO  time: compiled say in 50ms
+Jul 25, 2020 11:05:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1882
+2020.07.25 23:05:15 INFO  compiling say (1 scala source)
+2020.07.25 23:05:15 INFO  time: compiled say in 0.14s
+2020.07.25 23:05:15 INFO  compiling say (1 scala source)
+2020.07.25 23:05:15 INFO  time: compiled say in 0.16s
+2020.07.25 23:05:20 INFO  compiling say (1 scala source)
+2020.07.25 23:05:20 INFO  time: compiled say in 46ms
+2020.07.25 23:05:20 INFO  compiling say (1 scala source)
+2020.07.25 23:05:20 INFO  time: compiled say in 40ms
+2020.07.25 23:05:25 INFO  compiling say (1 scala source)
+2020.07.25 23:05:25 INFO  time: compiled say in 50ms
+2020.07.25 23:05:25 INFO  compiling say (1 scala source)
+2020.07.25 23:05:25 INFO  time: compiled say in 45ms
+2020.07.25 23:07:40 INFO  compiling say (1 scala source)
+2020.07.25 23:07:40 INFO  time: compiled say in 0.12s
+2020.07.25 23:07:40 INFO  compiling say (1 scala source)
+2020.07.25 23:07:40 INFO  time: compiled say in 0.13s
+2020.07.25 23:08:15 INFO  compiling say (1 scala source)
+2020.07.25 23:08:15 INFO  time: compiled say in 0.13s
+2020.07.25 23:08:15 INFO  compiling say (1 scala source)
+2020.07.25 23:08:15 INFO  time: compiled say in 0.11s
+2020.07.25 23:08:20 INFO  compiling say (1 scala source)
+2020.07.25 23:08:20 INFO  time: compiled say in 43ms
+2020.07.25 23:08:20 INFO  compiling say (1 scala source)
+2020.07.25 23:08:20 INFO  time: compiled say in 41ms
+something's wrong: no file:///home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala in List[<error>]RangePosition(file:///home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala, 758, 758, 772)
+something's wrong: no file:///home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala in List[<error>]RangePosition(file:///home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala, 758, 758, 772)
+something's wrong: no file:///home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala in List[<error>]RangePosition(file:///home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala, 758, 758, 765)
+something's wrong: no file:///home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala in List[<error>]RangePosition(file:///home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala, 758, 758, 766)
+something's wrong: no file:///home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala in List[<error>]RangePosition(file:///home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala, 758, 758, 767)
+something's wrong: no file:///home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala in List[<error>]RangePosition(file:///home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala, 758, 758, 768)
+something's wrong: no file:///home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala in List[String]RangePosition(file:///home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala, 758, 758, 770)
+something's wrong: no file:///home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala in List[String]RangePosition(file:///home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala, 758, 758, 770)
+something's wrong: no file:///home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala in List[String]RangePosition(file:///home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala, 758, 758, 770)
+2020.07.25 23:08:31 INFO  compiling say (1 scala source)
+2020.07.25 23:08:31 INFO  time: compiled say in 0.14s
+2020.07.25 23:08:31 INFO  compiling say (1 scala source)
+2020.07.25 23:08:31 INFO  time: compiled say in 0.17s
+2020.07.25 23:09:03 INFO  compiling say (1 scala source)
+2020.07.25 23:09:03 INFO  time: compiled say in 0.14s
+2020.07.25 23:09:03 INFO  compiling say (1 scala source)
+2020.07.25 23:09:03 INFO  time: compiled say in 0.17s
+2020.07.25 23:09:07 INFO  compiling say (1 scala source)
+2020.07.25 23:09:07 INFO  time: compiled say in 0.19s
+2020.07.25 23:09:07 INFO  compiling say (1 scala source)
+2020.07.25 23:09:07 INFO  time: compiled say in 0.17s
+2020.07.25 23:09:16 INFO  compiling say (1 scala source)
+2020.07.25 23:09:16 INFO  time: compiled say in 40ms
+2020.07.25 23:09:16 INFO  compiling say (1 scala source)
+2020.07.25 23:09:16 INFO  time: compiled say in 40ms
+Jul 25, 2020 11:09:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2382
+2020.07.25 23:09:58 INFO  compiling say (1 scala source)
+2020.07.25 23:09:58 INFO  time: compiled say in 0.21s
+2020.07.25 23:09:58 INFO  compiling say (1 scala source)
+2020.07.25 23:09:58 INFO  time: compiled say in 0.24s
+2020.07.25 23:10:00 INFO  compiling say (1 scala source)
+2020.07.25 23:10:00 INFO  time: compiled say in 0.19s
+2020.07.25 23:11:06 INFO  compiling say (1 scala source)
+2020.07.25 23:11:06 INFO  time: compiled say in 0.29s
+2020.07.25 23:11:06 INFO  compiling say (1 scala source)
+2020.07.25 23:11:06 INFO  time: compiled say in 0.21s
+2020.07.25 23:13:11 INFO  compiling say (1 scala source)
+2020.07.25 23:13:11 INFO  time: compiled say in 0.15s
+2020.07.25 23:13:11 INFO  compiling say (1 scala source)
+2020.07.25 23:13:11 INFO  time: compiled say in 0.15s
+2020.07.25 23:13:15 INFO  compiling say (1 scala source)
+2020.07.25 23:13:15 INFO  time: compiled say in 0.2s
+2020.07.25 23:13:15 INFO  compiling say (1 scala source)
+2020.07.25 23:13:15 INFO  time: compiled say in 0.17s
+2020.07.25 23:13:18 INFO  compiling say (1 scala source)
+2020.07.25 23:13:18 INFO  time: compiled say in 0.13s
+2020.07.25 23:13:26 INFO  compiling say (1 scala source)
+2020.07.25 23:13:26 INFO  time: compiled say in 0.17s
+2020.07.25 23:13:26 INFO  compiling say (1 scala source)
+2020.07.25 23:13:26 INFO  time: compiled say in 0.16s
+2020.07.25 23:13:35 INFO  compiling say (1 scala source)
+2020.07.25 23:13:35 INFO  time: compiled say in 0.16s
+2020.07.25 23:13:35 INFO  compiling say (1 scala source)
+2020.07.25 23:13:35 INFO  time: compiled say in 0.15s
+2020.07.25 23:13:39 INFO  compiling say (1 scala source)
+2020.07.25 23:13:39 INFO  time: compiled say in 0.15s
+2020.07.25 23:13:39 INFO  compiling say (1 scala source)
+2020.07.25 23:13:39 INFO  time: compiled say in 0.18s
+2020.07.25 23:13:48 INFO  compiling say (1 scala source)
+2020.07.25 23:13:48 INFO  time: compiled say in 0.17s
+2020.07.25 23:13:48 INFO  compiling say (1 scala source)
+2020.07.25 23:13:48 INFO  time: compiled say in 0.2s
+2020.07.25 23:13:52 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:44:7: stale bloop error: type mismatch;
+ found   : Unit
+ required: List[String]
+      return 
+      ^^^^^^
+2020.07.25 23:13:52 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:55:7: stale bloop error: type mismatch;
+ found   : Unit
+ required: Option[String]
+      }
+      ^
+2020.07.25 23:13:52 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:44:7: stale bloop error: type mismatch;
+ found   : Unit
+ required: List[String]
+      return 
+      ^^^^^^
+2020.07.25 23:13:52 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:55:7: stale bloop error: type mismatch;
+ found   : Unit
+ required: Option[String]
+      }
+      ^
+2020.07.25 23:13:54 INFO  compiling say (1 scala source)
+2020.07.25 23:13:54 INFO  time: compiled say in 0.17s
+2020.07.25 23:13:54 INFO  compiling say (1 scala source)
+2020.07.25 23:13:54 INFO  time: compiled say in 0.16s
+2020.07.25 23:14:00 INFO  compiling say (1 scala source)
+2020.07.25 23:14:00 INFO  time: compiled say in 0.12s
+2020.07.25 23:14:00 INFO  compiling say (1 scala source)
+2020.07.25 23:14:00 INFO  time: compiled say in 0.13s
+2020.07.25 23:14:04 INFO  compiling say (1 scala source)
+2020.07.25 23:14:04 INFO  time: compiled say in 0.14s
+2020.07.25 23:14:04 INFO  compiling say (1 scala source)
+2020.07.25 23:14:04 INFO  time: compiled say in 0.13s
+2020.07.25 23:14:30 INFO  compiling say (1 scala source)
+2020.07.25 23:14:30 INFO  time: compiled say in 0.16s
+2020.07.25 23:14:30 INFO  compiling say (1 scala source)
+2020.07.25 23:14:30 INFO  time: compiled say in 0.16s
+2020.07.25 23:14:40 INFO  compiling say (1 scala source)
+2020.07.25 23:14:40 INFO  time: compiled say in 0.13s
+2020.07.25 23:14:40 INFO  compiling say (1 scala source)
+2020.07.25 23:14:40 INFO  time: compiled say in 0.15s
+2020.07.25 23:14:43 INFO  compiling say (1 scala source)
+2020.07.25 23:14:43 INFO  time: compiled say in 0.29s
+2020.07.25 23:14:43 INFO  compiling say (1 scala source)
+2020.07.25 23:14:43 INFO  time: compiled say in 0.23s
+2020.07.25 23:15:01 INFO  compiling say (1 scala source)
+2020.07.25 23:15:01 INFO  time: compiled say in 0.17s
+2020.07.25 23:15:01 INFO  compiling say (1 scala source)
+2020.07.25 23:15:01 INFO  time: compiled say in 0.19s
+2020.07.25 23:15:05 INFO  compiling say (1 scala source)
+2020.07.25 23:15:05 INFO  time: compiled say in 0.16s
+2020.07.25 23:15:05 INFO  compiling say (1 scala source)
+2020.07.25 23:15:05 INFO  time: compiled say in 0.23s
+2020.07.25 23:15:10 INFO  compiling say (1 scala source)
+2020.07.25 23:15:10 INFO  time: compiled say in 0.14s
+2020.07.25 23:15:10 INFO  compiling say (1 scala source)
+2020.07.25 23:15:10 INFO  time: compiled say in 0.17s
+2020.07.25 23:15:21 INFO  compiling say (1 scala source)
+2020.07.25 23:15:21 INFO  time: compiled say in 0.42s
+2020.07.25 23:16:01 INFO  compiling say (1 scala source)
+2020.07.25 23:16:01 INFO  time: compiled say in 0.14s
+2020.07.25 23:16:01 INFO  compiling say (1 scala source)
+2020.07.25 23:16:01 INFO  time: compiled say in 0.21s
+2020.07.25 23:16:06 INFO  compiling say (1 scala source)
+2020.07.25 23:16:06 INFO  time: compiled say in 0.45s
+2020.07.25 23:16:42 INFO  compiling say-test (1 scala source)
+2020.07.25 23:16:44 INFO  time: compiled say-test in 1.72s
+2020.07.25 23:17:10 INFO  compiling say-test (1 scala source)
+2020.07.25 23:17:12 INFO  time: compiled say-test in 1.99s
+Jul 25, 2020 11:23:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3128
+2020.07.25 23:23:07 INFO  compiling say (1 scala source)
+2020.07.25 23:23:07 INFO  time: compiled say in 0.17s
+2020.07.25 23:23:07 INFO  compiling say (1 scala source)
+2020.07.25 23:23:07 INFO  time: compiled say in 0.2s
+2020.07.25 23:23:09 INFO  compiling say (1 scala source)
+2020.07.25 23:23:09 INFO  time: compiled say in 0.17s
+2020.07.25 23:23:12 INFO  compiling say (1 scala source)
+2020.07.25 23:23:12 INFO  time: compiled say in 0.13s
+2020.07.25 23:23:15 INFO  compiling say (1 scala source)
+2020.07.25 23:23:15 INFO  time: compiled say in 0.39s
+2020.07.25 23:24:02 INFO  compiling say (1 scala source)
+2020.07.25 23:24:02 INFO  time: compiled say in 0.37s
+2020.07.25 23:28:13 INFO  compiling say (1 scala source)
+2020.07.25 23:28:13 INFO  time: compiled say in 0.14s
+2020.07.25 23:28:13 INFO  compiling say (1 scala source)
+2020.07.25 23:28:13 INFO  time: compiled say in 0.18s
+Jul 25, 2020 11:28:20 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jul 25, 2020 11:28:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:416)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.AutoImportsProvider.autoImports(AutoImportsProvider.scala:26)
+
+Jul 25, 2020 11:28:21 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jul 25, 2020 11:28:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:416)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.AutoImportsProvider.autoImports(AutoImportsProvider.scala:26)
+
+2020.07.25 23:28:32 INFO  compiling say (1 scala source)
+2020.07.25 23:28:32 INFO  time: compiled say in 0.16s
+2020.07.25 23:28:32 INFO  compiling say (1 scala source)
+2020.07.25 23:28:32 INFO  time: compiled say in 0.13s
+2020.07.25 23:29:33 INFO  compiling say (1 scala source)
+2020.07.25 23:29:33 INFO  time: compiled say in 0.21s
+2020.07.25 23:29:33 INFO  compiling say (1 scala source)
+2020.07.25 23:29:33 INFO  time: compiled say in 0.18s
+2020.07.25 23:30:08 INFO  compiling say (1 scala source)
+2020.07.25 23:30:08 INFO  time: compiled say in 0.16s
+2020.07.25 23:30:08 INFO  compiling say (1 scala source)
+2020.07.25 23:30:08 INFO  time: compiled say in 0.15s
+2020.07.25 23:30:42 INFO  compiling say (1 scala source)
+2020.07.25 23:30:42 INFO  time: compiled say in 72ms
+2020.07.25 23:30:42 INFO  compiling say (1 scala source)
+2020.07.25 23:30:42 INFO  time: compiled say in 40ms
+2020.07.25 23:30:48 INFO  compiling say (1 scala source)
+2020.07.25 23:30:48 INFO  time: compiled say in 0.17s
+2020.07.25 23:30:48 INFO  compiling say (1 scala source)
+2020.07.25 23:30:48 INFO  time: compiled say in 0.2s
+2020.07.25 23:30:57 INFO  compiling say (1 scala source)
+2020.07.25 23:30:57 INFO  time: compiled say in 0.17s
+2020.07.25 23:30:57 INFO  compiling say (1 scala source)
+2020.07.25 23:30:57 INFO  time: compiled say in 0.14s
+2020.07.25 23:32:26 INFO  compiling say (1 scala source)
+2020.07.25 23:32:26 INFO  time: compiled say in 50ms
+2020.07.25 23:32:26 INFO  compiling say (1 scala source)
+2020.07.25 23:32:26 INFO  time: compiled say in 38ms
+2020.07.25 23:32:50 INFO  compiling say (1 scala source)
+2020.07.25 23:32:50 INFO  time: compiled say in 51ms
+2020.07.25 23:32:50 INFO  compiling say (1 scala source)
+2020.07.25 23:32:50 INFO  time: compiled say in 62ms
+2020.07.25 23:32:55 INFO  compiling say (1 scala source)
+2020.07.25 23:32:55 INFO  time: compiled say in 46ms
+2020.07.25 23:32:55 INFO  compiling say (1 scala source)
+2020.07.25 23:32:55 INFO  time: compiled say in 54ms
+2020.07.25 23:33:50 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:33:50 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:33:51 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:33:51 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:33:51 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:33:51 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:33:53 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:33:53 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:33:54 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:33:54 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:33:54 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:33:54 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:33:56 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:33:56 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:33:56 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:33:56 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:33:57 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:33:57 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:33:59 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:33:59 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:01 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:01 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:01 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:01 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:03 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:03 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:03 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:04 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:03 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:04 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:06 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:06 INFO  compiling say (1 scala source)
+2020.07.25 23:34:06 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(/d{1})()".r
+                   ^
+2020.07.25 23:34:06 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(/d{1})()".r
+                   ^
+2020.07.25 23:34:06 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:06 INFO  time: compiled say in 49ms
+2020.07.25 23:34:06 INFO  compiling say (1 scala source)
+2020.07.25 23:34:06 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(/d{1})()".r
+                   ^
+2020.07.25 23:34:06 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(/d{1})()".r
+                   ^
+2020.07.25 23:34:06 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:06 INFO  time: compiled say in 37ms
+2020.07.25 23:34:12 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(/d{1})()".r
+                   ^
+2020.07.25 23:34:12 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:12 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(/d{1})()".r
+                   ^
+2020.07.25 23:34:12 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:12 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(/d{1})()".r
+                   ^
+2020.07.25 23:34:12 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:12 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(/d{1})()".r
+                   ^
+2020.07.25 23:34:12 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:14 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(/d{1})()".r
+                   ^
+2020.07.25 23:34:14 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:14 INFO  compiling say (1 scala source)
+2020.07.25 23:34:14 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})()".r
+                   ^
+2020.07.25 23:34:14 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})()".r
+                   ^
+2020.07.25 23:34:14 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:27: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})()".r
+                          ^
+2020.07.25 23:34:14 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:14 INFO  time: compiled say in 44ms
+2020.07.25 23:34:14 INFO  compiling say (1 scala source)
+2020.07.25 23:34:14 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})()".r
+                   ^
+2020.07.25 23:34:14 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})()".r
+                   ^
+2020.07.25 23:34:14 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:27: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})()".r
+                          ^
+2020.07.25 23:34:14 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:14 INFO  time: compiled say in 51ms
+2020.07.25 23:34:19 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})()".r
+                   ^
+2020.07.25 23:34:19 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:27: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})()".r
+                          ^
+2020.07.25 23:34:19 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:19 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})()".r
+                   ^
+2020.07.25 23:34:19 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:27: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})()".r
+                          ^
+2020.07.25 23:34:19 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:20 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})()".r
+                   ^
+2020.07.25 23:34:20 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:27: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})()".r
+                          ^
+2020.07.25 23:34:20 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:20 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})()".r
+                   ^
+2020.07.25 23:34:20 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:27: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})()".r
+                          ^
+2020.07.25 23:34:20 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:21 INFO  compiling say (1 scala source)
+2020.07.25 23:34:21 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})()".r
+                   ^
+2020.07.25 23:34:21 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:27: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})()".r
+                          ^
+2020.07.25 23:34:21 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:21 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                   ^
+2020.07.25 23:34:21 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                   ^
+2020.07.25 23:34:21 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:27: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                          ^
+2020.07.25 23:34:21 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:34: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                                 ^
+2020.07.25 23:34:21 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:21 INFO  time: compiled say in 46ms
+2020.07.25 23:34:21 INFO  compiling say (1 scala source)
+2020.07.25 23:34:21 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                   ^
+2020.07.25 23:34:21 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                   ^
+2020.07.25 23:34:21 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:27: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                          ^
+2020.07.25 23:34:21 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:34: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                                 ^
+2020.07.25 23:34:21 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:21 INFO  time: compiled say in 59ms
+2020.07.25 23:34:23 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                   ^
+2020.07.25 23:34:23 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:27: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                          ^
+2020.07.25 23:34:23 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:34: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                                 ^
+2020.07.25 23:34:23 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:23 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                   ^
+2020.07.25 23:34:23 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:27: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                          ^
+2020.07.25 23:34:23 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:34: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                                 ^
+2020.07.25 23:34:23 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:25 INFO  compiling say (1 scala source)
+2020.07.25 23:34:25 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                   ^
+2020.07.25 23:34:25 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:27: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                          ^
+2020.07.25 23:34:25 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:34: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                                 ^
+2020.07.25 23:34:25 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:25 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                   ^
+2020.07.25 23:34:25 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                   ^
+2020.07.25 23:34:25 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:27: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                          ^
+2020.07.25 23:34:25 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:34: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                                 ^
+2020.07.25 23:34:25 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:53:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:25 INFO  time: compiled say in 42ms
+2020.07.25 23:34:25 INFO  compiling say (1 scala source)
+2020.07.25 23:34:25 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                   ^
+2020.07.25 23:34:25 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                   ^
+2020.07.25 23:34:25 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:27: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                          ^
+2020.07.25 23:34:25 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:34: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                                 ^
+2020.07.25 23:34:25 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:53:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:25 INFO  time: compiled say in 40ms
+2020.07.25 23:34:44 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                   ^
+2020.07.25 23:34:44 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:27: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                          ^
+2020.07.25 23:34:44 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:34: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                                 ^
+2020.07.25 23:34:44 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:53:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:44 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                   ^
+2020.07.25 23:34:44 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:27: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                          ^
+2020.07.25 23:34:44 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:34: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                                 ^
+2020.07.25 23:34:44 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:53:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:44 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                   ^
+2020.07.25 23:34:44 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:27: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                          ^
+2020.07.25 23:34:44 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:34: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                                 ^
+2020.07.25 23:34:44 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:53:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:44 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                   ^
+2020.07.25 23:34:44 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:27: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                          ^
+2020.07.25 23:34:44 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:34: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                                 ^
+2020.07.25 23:34:44 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:53:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:44 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                   ^
+2020.07.25 23:34:44 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:27: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                          ^
+2020.07.25 23:34:44 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:34: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                                 ^
+2020.07.25 23:34:44 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:53:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:44 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                   ^
+2020.07.25 23:34:44 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:27: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                          ^
+2020.07.25 23:34:44 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:34: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                                 ^
+2020.07.25 23:34:44 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:53:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:45 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                   ^
+2020.07.25 23:34:45 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:27: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                          ^
+2020.07.25 23:34:45 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:34: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                                 ^
+2020.07.25 23:34:45 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:53:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:45 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                   ^
+2020.07.25 23:34:45 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:27: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                          ^
+2020.07.25 23:34:45 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:34: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                                 ^
+2020.07.25 23:34:45 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:53:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:45 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                   ^
+2020.07.25 23:34:45 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:27: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                          ^
+2020.07.25 23:34:45 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:34: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                                 ^
+2020.07.25 23:34:45 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:53:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:46 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                   ^
+2020.07.25 23:34:46 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:27: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                          ^
+2020.07.25 23:34:46 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:34: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                                 ^
+2020.07.25 23:34:46 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:53:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:48 INFO  compiling say (1 scala source)
+2020.07.25 23:34:48 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                   ^
+2020.07.25 23:34:48 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:27: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                          ^
+2020.07.25 23:34:48 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:34: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                                 ^
+2020.07.25 23:34:48 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:53:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:48 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                   ^
+2020.07.25 23:34:48 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                   ^
+2020.07.25 23:34:48 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:27: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                          ^
+2020.07.25 23:34:48 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:34: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                                 ^
+2020.07.25 23:34:48 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:53:5: stale bloop error: '=>' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:48 INFO  time: compiled say in 54ms
+2020.07.25 23:34:48 INFO  compiling say (1 scala source)
+2020.07.25 23:34:48 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                   ^
+2020.07.25 23:34:48 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                   ^
+2020.07.25 23:34:48 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:27: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                          ^
+2020.07.25 23:34:48 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:34: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                                 ^
+2020.07.25 23:34:48 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:53:5: stale bloop error: '=>' expected but '}' found.
+    }
+    ^
+2020.07.25 23:34:48 INFO  time: compiled say in 41ms
+2020.07.25 23:35:03 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                   ^
+2020.07.25 23:35:03 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:27: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                          ^
+2020.07.25 23:35:03 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:34: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                                 ^
+2020.07.25 23:35:03 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:53:5: stale bloop error: '=>' expected but '}' found.
+    }
+    ^
+2020.07.25 23:35:03 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                   ^
+2020.07.25 23:35:03 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:27: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                          ^
+2020.07.25 23:35:03 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:34: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                                 ^
+2020.07.25 23:35:03 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:53:5: stale bloop error: '=>' expected but '}' found.
+    }
+    ^
+2020.07.25 23:35:03 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                   ^
+2020.07.25 23:35:03 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:27: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                          ^
+2020.07.25 23:35:03 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:34: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                                 ^
+2020.07.25 23:35:03 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:53:5: stale bloop error: '=>' expected but '}' found.
+    }
+    ^
+2020.07.25 23:35:03 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                   ^
+2020.07.25 23:35:03 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:27: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                          ^
+2020.07.25 23:35:03 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:34: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                                 ^
+2020.07.25 23:35:03 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:53:5: stale bloop error: '=>' expected but '}' found.
+    }
+    ^
+2020.07.25 23:35:06 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:20: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                   ^
+2020.07.25 23:35:06 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:27: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                          ^
+2020.07.25 23:35:06 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:49:34: stale bloop error: invalid escape character
+    val regex = "(\d{1})(\d{1})(\d{1})".r
+                                 ^
+2020.07.25 23:35:06 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:53:5: stale bloop error: '=>' expected but '}' found.
+    }
+    ^
+2020.07.25 23:35:06 INFO  compiling say (1 scala source)
+2020.07.25 23:35:06 INFO  time: compiled say in 49ms
+2020.07.25 23:35:06 INFO  compiling say (1 scala source)
+2020.07.25 23:35:06 INFO  time: compiled say in 45ms
+something's wrong: no file:///home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala in Option[String]RangePosition(file:///home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala, 1112, 1112, 1126)
+2020.07.25 23:35:17 INFO  compiling say (1 scala source)
+2020.07.25 23:35:17 INFO  time: compiled say in 92ms
+2020.07.25 23:35:17 INFO  compiling say (1 scala source)
+2020.07.25 23:35:17 INFO  time: compiled say in 43ms
+2020.07.25 23:35:21 INFO  compiling say (1 scala source)
+2020.07.25 23:35:21 INFO  time: compiled say in 44ms
+2020.07.25 23:35:21 INFO  compiling say (1 scala source)
+2020.07.25 23:35:21 INFO  time: compiled say in 39ms
+2020.07.25 23:35:26 INFO  compiling say (1 scala source)
+2020.07.25 23:35:26 INFO  time: compiled say in 50ms
+2020.07.25 23:35:26 INFO  compiling say (1 scala source)
+2020.07.25 23:35:26 INFO  time: compiled say in 32ms
+Jul 25, 2020 11:35:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3728
+2020.07.25 23:35:30 INFO  compiling say (1 scala source)
+2020.07.25 23:35:30 INFO  time: compiled say in 0.18s
+2020.07.25 23:35:30 INFO  compiling say (1 scala source)
+2020.07.25 23:35:30 INFO  time: compiled say in 0.25s
+2020.07.25 23:35:55 INFO  compiling say (1 scala source)
+2020.07.25 23:35:55 INFO  time: compiled say in 0.16s
+2020.07.25 23:36:31 INFO  compiling say (1 scala source)
+2020.07.25 23:36:31 INFO  time: compiled say in 0.16s
+2020.07.25 23:36:31 INFO  compiling say (1 scala source)
+2020.07.25 23:36:31 INFO  time: compiled say in 0.21s
+2020.07.25 23:36:32 INFO  compiling say (1 scala source)
+2020.07.25 23:36:32 INFO  time: compiled say in 0.13s
+2020.07.25 23:37:53 INFO  compiling say (1 scala source)
+2020.07.25 23:37:53 INFO  time: compiled say in 0.18s
+2020.07.25 23:37:53 INFO  compiling say (1 scala source)
+2020.07.25 23:37:53 INFO  time: compiled say in 0.2s
+Jul 25, 2020 11:37:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3848
+2020.07.25 23:38:00 INFO  compiling say (1 scala source)
+2020.07.25 23:38:00 INFO  time: compiled say in 53ms
+2020.07.25 23:38:00 INFO  compiling say (1 scala source)
+2020.07.25 23:38:00 INFO  time: compiled say in 57ms
+2020.07.25 23:38:03 INFO  compiling say (1 scala source)
+2020.07.25 23:38:03 INFO  time: compiled say in 41ms
+2020.07.25 23:38:10 INFO  compiling say (1 scala source)
+2020.07.25 23:38:10 INFO  time: compiled say in 0.25s
+2020.07.25 23:38:10 INFO  compiling say (1 scala source)
+2020.07.25 23:38:10 INFO  time: compiled say in 0.18s
+2020.07.25 23:38:31 INFO  compiling say (1 scala source)
+2020.07.25 23:38:31 INFO  time: compiled say in 62ms
+2020.07.25 23:38:31 INFO  compiling say (1 scala source)
+2020.07.25 23:38:31 INFO  time: compiled say in 50ms
+2020.07.25 23:38:34 INFO  compiling say (1 scala source)
+2020.07.25 23:38:34 INFO  time: compiled say in 0.14s
+2020.07.25 23:41:13 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2020.07.25 23:41:27 INFO  started: Metals version 0.9.2 in workspace '/home/mateusz/Projekty/exercism/scala/say' for client vscode.
+2020.07.25 23:41:28 INFO  time: initialize in 1.72s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher8083139693382041305/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.07.25 23:41:29 INFO  no build target: using presentation compiler with only scala-library
+2020.07.25 23:41:29 INFO  skipping build import with status 'Installed'
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher8083139693382041305/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher8083139693382041305/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.07.25 23:41:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mateusz/.cache/metals/bsp.trace.json
+2020.07.25 23:41:30 INFO  time: connected to build server in 0.54s
+2020.07.25 23:41:30 INFO  Connected to Build server v1.4.3
+2020.07.25 23:41:33 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.07.25 23:41:33 INFO  time: indexed workspace in 3.29s
+2020.07.25 23:41:33 INFO  compiling say (1 scala source)
+2020.07.25 23:41:35 INFO  time: compiled say in 2.06s
+2020.07.25 23:41:35 INFO  compiling say (1 scala source)
+2020.07.25 23:41:35 INFO  time: compiled say in 9ms
+Jul 25, 2020 11:41:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Jul 25, 2020 11:41:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+2020.07.25 23:41:41 INFO  compiling say (1 scala source)
+2020.07.25 23:41:41 INFO  time: compiled say in 0.12s
+2020.07.25 23:41:41 INFO  compiling say (1 scala source)
+2020.07.25 23:41:41 INFO  time: compiled say in 45ms
+Jul 25, 2020 11:41:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 38
+Jul 25, 2020 11:41:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 42
+Jul 25, 2020 11:41:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 40
+Jul 25, 2020 11:41:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48
+Jul 25, 2020 11:41:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 44
+Jul 25, 2020 11:41:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 50
+2020.07.25 23:41:46 INFO  compiling say (1 scala source)
+2020.07.25 23:41:46 INFO  time: compiled say in 0.72s
+2020.07.25 23:41:55 INFO  compiling say (1 scala source)
+2020.07.25 23:41:55 INFO  time: compiled say in 0.45s
+2020.07.25 23:42:01 INFO  compiling say (1 scala source)
+2020.07.25 23:42:01 INFO  time: compiled say in 0.46s
+2020.07.25 23:42:04 INFO  compiling say (1 scala source)
+2020.07.25 23:42:04 INFO  time: compiled say in 0.44s
+2020.07.25 23:42:13 INFO  compiling say (1 scala source)
+2020.07.25 23:42:13 INFO  time: compiled say in 0.2s
+2020.07.25 23:42:13 INFO  compiling say (1 scala source)
+2020.07.25 23:42:13 INFO  time: compiled say in 0.18s
+2020.07.25 23:42:25 INFO  compiling say (1 scala source)
+2020.07.25 23:42:25 INFO  time: compiled say in 0.18s
+2020.07.25 23:42:25 INFO  compiling say (1 scala source)
+2020.07.25 23:42:25 INFO  time: compiled say in 0.16s
+Jul 25, 2020 11:42:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 150
+2020.07.25 23:42:32 INFO  compiling say (1 scala source)
+2020.07.25 23:42:32 INFO  time: compiled say in 0.14s
+2020.07.25 23:42:32 INFO  compiling say (1 scala source)
+2020.07.25 23:42:32 INFO  time: compiled say in 0.17s
+2020.07.25 23:42:36 INFO  compiling say (1 scala source)
+2020.07.25 23:42:36 INFO  time: compiled say in 0.2s
+2020.07.25 23:42:36 INFO  compiling say (1 scala source)
+2020.07.25 23:42:36 INFO  time: compiled say in 0.22s
+2020.07.25 23:42:41 INFO  compiling say (1 scala source)
+2020.07.25 23:42:41 INFO  time: compiled say in 0.65s
+2020.07.25 23:42:55 INFO  compiling say (1 scala source)
+2020.07.25 23:42:55 INFO  time: compiled say in 0.15s
+2020.07.25 23:42:55 INFO  compiling say (1 scala source)
+2020.07.25 23:42:55 INFO  time: compiled say in 0.19s
+2020.07.25 23:43:09 INFO  compiling say (1 scala source)
+2020.07.25 23:43:09 INFO  time: compiled say in 0.2s
+2020.07.25 23:43:09 INFO  compiling say (1 scala source)
+2020.07.25 23:43:09 INFO  time: compiled say in 0.27s
+2020.07.25 23:43:13 INFO  compiling say (1 scala source)
+2020.07.25 23:43:13 INFO  time: compiled say in 0.43s
+2020.07.25 23:43:13 INFO  compiling say (1 scala source)
+2020.07.25 23:43:13 INFO  time: compiled say in 0.27s
+2020.07.25 23:43:18 INFO  compiling say (1 scala source)
+2020.07.25 23:43:18 INFO  time: compiled say in 0.48s
+Jul 25, 2020 11:43:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 327
+2020.07.25 23:43:39 INFO  compiling say (1 scala source)
+2020.07.25 23:43:39 INFO  time: compiled say in 0.44s
+Jul 25, 2020 11:44:48 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 1188, count -1, length 1583
+2020.07.25 23:44:52 INFO  compiling say (1 scala source)
+2020.07.25 23:44:52 INFO  time: compiled say in 0.42s
+2020.07.25 23:45:04 INFO  compiling say (1 scala source)
+2020.07.25 23:45:04 INFO  time: compiled say in 0.39s
+2020.07.25 23:45:45 INFO  compiling say (1 scala source)
+2020.07.25 23:45:45 INFO  time: compiled say in 0.43s
+2020.07.25 23:45:54 INFO  compiling say (1 scala source)
+2020.07.25 23:45:54 INFO  time: compiled say in 0.47s
+2020.07.25 23:46:09 INFO  compiling say (1 scala source)
+2020.07.25 23:46:09 INFO  time: compiled say in 0.14s
+2020.07.25 23:46:09 INFO  compiling say (1 scala source)
+2020.07.25 23:46:09 INFO  time: compiled say in 0.11s
+2020.07.25 23:46:19 INFO  compiling say (1 scala source)
+2020.07.25 23:46:19 INFO  time: compiled say in 0.5s
+2020.07.25 23:46:28 INFO  compiling say (1 scala source)
+2020.07.25 23:46:28 INFO  time: compiled say in 68ms
+2020.07.25 23:46:28 INFO  compiling say (1 scala source)
+2020.07.25 23:46:28 INFO  time: compiled say in 53ms
+something's wrong: no file:///home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala in Option[String]RangePosition(file:///home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala, 1413, 1413, 1427)
+2020.07.25 23:46:39 INFO  compiling say (1 scala source)
+2020.07.25 23:46:39 INFO  time: compiled say in 0.17s
+2020.07.25 23:46:39 INFO  compiling say (1 scala source)
+2020.07.25 23:46:39 INFO  time: compiled say in 0.16s
+2020.07.25 23:46:44 INFO  compiling say (1 scala source)
+2020.07.25 23:46:44 INFO  time: compiled say in 0.48s
+2020.07.25 23:47:14 INFO  compiling say (1 scala source)
+2020.07.25 23:47:14 INFO  time: compiled say in 0.14s
+2020.07.25 23:47:14 INFO  compiling say (1 scala source)
+2020.07.25 23:47:14 INFO  time: compiled say in 0.14s
+2020.07.25 23:47:45 INFO  compiling say (1 scala source)
+2020.07.25 23:47:45 INFO  time: compiled say in 0.3s
+2020.07.25 23:47:57 INFO  compiling say (1 scala source)
+2020.07.25 23:47:57 INFO  time: compiled say in 0.38s
+2020.07.25 23:48:06 INFO  compiling say (1 scala source)
+2020.07.25 23:48:06 INFO  time: compiled say in 0.14s
+2020.07.25 23:48:06 INFO  compiling say (1 scala source)
+2020.07.25 23:48:06 INFO  time: compiled say in 0.16s
+2020.07.25 23:48:13 INFO  compiling say (1 scala source)
+2020.07.25 23:48:13 INFO  time: compiled say in 0.13s
+2020.07.25 23:48:13 INFO  compiling say (1 scala source)
+2020.07.25 23:48:13 INFO  time: compiled say in 0.11s
+2020.07.25 23:48:21 INFO  compiling say (1 scala source)
+2020.07.25 23:48:21 INFO  time: compiled say in 0.15s
+2020.07.25 23:48:21 INFO  compiling say (1 scala source)
+2020.07.25 23:48:21 INFO  time: compiled say in 0.11s
+2020.07.25 23:48:36 INFO  compiling say (1 scala source)
+2020.07.25 23:48:36 INFO  time: compiled say in 0.2s
+2020.07.25 23:48:36 INFO  compiling say (1 scala source)
+2020.07.25 23:48:36 INFO  time: compiled say in 0.16s
+2020.07.25 23:48:53 INFO  compiling say (1 scala source)
+2020.07.25 23:48:53 INFO  time: compiled say in 0.2s
+2020.07.25 23:48:53 INFO  compiling say (1 scala source)
+2020.07.25 23:48:53 INFO  time: compiled say in 0.18s
+Jul 25, 2020 11:48:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 987
+2020.07.25 23:48:57 INFO  compiling say (1 scala source)
+2020.07.25 23:48:57 INFO  time: compiled say in 0.18s
+2020.07.25 23:48:57 INFO  compiling say (1 scala source)
+2020.07.25 23:48:57 INFO  time: compiled say in 97ms
+2020.07.25 23:48:59 INFO  compiling say (1 scala source)
+2020.07.25 23:48:59 INFO  time: compiled say in 0.11s
+2020.07.25 23:49:02 INFO  compiling say (1 scala source)
+2020.07.25 23:49:02 INFO  time: compiled say in 0.33s
+2020.07.25 23:49:25 INFO  compiling say (1 scala source)
+2020.07.25 23:49:25 INFO  time: compiled say in 0.53s
+2020.07.25 23:49:47 INFO  compiling say (1 scala source)
+2020.07.25 23:49:47 INFO  time: compiled say in 0.41s
+2020.07.25 23:51:45 INFO  compiling say (1 scala source)
+2020.07.25 23:51:45 INFO  time: compiled say in 0.34s
+2020.07.25 23:51:54 INFO  compiling say (1 scala source)
+2020.07.25 23:51:54 INFO  time: compiled say in 0.37s
+2020.07.25 23:51:57 INFO  compiling say (1 scala source)
+2020.07.25 23:51:57 INFO  time: compiled say in 0.31s
+2020.07.25 23:52:31 INFO  compiling say (1 scala source)
+2020.07.25 23:52:31 INFO  time: compiled say in 0.45s
+2020.07.25 23:52:35 INFO  compiling say (1 scala source)
+2020.07.25 23:52:35 INFO  time: compiled say in 0.4s
+2020.07.25 23:53:08 INFO  compiling say (1 scala source)
+2020.07.25 23:53:08 INFO  time: compiled say in 0.4s
+2020.07.25 23:53:11 INFO  compiling say (1 scala source)
+2020.07.25 23:53:11 INFO  time: compiled say in 0.34s
+2020.07.25 23:53:16 INFO  compiling say (1 scala source)
+2020.07.25 23:53:16 INFO  time: compiled say in 0.34s
+2020.07.25 23:54:20 INFO  compiling say (1 scala source)
+2020.07.25 23:54:20 INFO  time: compiled say in 0.38s
+2020.07.25 23:54:22 INFO  compiling say (1 scala source)
+2020.07.25 23:54:22 INFO  time: compiled say in 0.29s
+2020.07.25 23:55:23 INFO  compiling say (1 scala source)
+2020.07.25 23:55:23 INFO  time: compiled say in 0.11s
+2020.07.25 23:55:23 INFO  compiling say (1 scala source)
+2020.07.25 23:55:23 INFO  time: compiled say in 0.12s
+2020.07.25 23:55:39 INFO  compiling say (1 scala source)
+2020.07.25 23:55:39 INFO  time: compiled say in 0.15s
+2020.07.25 23:55:39 INFO  compiling say (1 scala source)
+2020.07.25 23:55:39 INFO  time: compiled say in 0.16s
+2020.07.25 23:55:43 INFO  compiling say (1 scala source)
+2020.07.25 23:55:43 INFO  time: compiled say in 0.4s
+2020.07.25 23:55:44 INFO  compiling say (1 scala source)
+2020.07.25 23:55:44 INFO  time: compiled say in 0.45s
+2020.07.25 23:56:03 INFO  compiling say (1 scala source)
+2020.07.25 23:56:03 INFO  time: compiled say in 0.33s
+2020.07.25 23:56:05 INFO  compiling say (1 scala source)
+2020.07.25 23:56:05 INFO  time: compiled say in 0.28s
+2020.07.25 23:56:36 INFO  compiling say (1 scala source)
+2020.07.25 23:56:36 INFO  time: compiled say in 0.33s
+2020.07.25 23:59:05 INFO  compiling say (1 scala source)
+2020.07.25 23:59:05 INFO  time: compiled say in 0.31s
+2020.07.25 23:59:52 INFO  compiling say (1 scala source)
+2020.07.25 23:59:52 INFO  time: compiled say in 0.32s
+2020.07.25 23:59:59 INFO  compiling say (1 scala source)
+2020.07.25 23:59:59 INFO  time: compiled say in 0.33s
+2020.07.26 00:00:02 INFO  compiling say (1 scala source)
+2020.07.26 00:00:02 INFO  time: compiled say in 0.28s
+2020.07.26 00:00:02 INFO  compiling say (1 scala source)
+2020.07.26 00:00:02 INFO  time: compiled say in 0.37s
+2020.07.26 00:00:05 INFO  compiling say (1 scala source)
+2020.07.26 00:00:05 INFO  time: compiled say in 0.78s
+2020.07.26 00:00:19 INFO  compiling say (1 scala source)
+2020.07.26 00:00:21 INFO  time: compiled say in 2.16s
+2020.07.26 10:41:26 INFO  started: Metals version 0.9.2 in workspace '/home/mateusz/Projekty/exercism/scala/say' for client vscode.
+2020.07.26 10:41:29 INFO  time: initialize in 3.1s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher5971548107629026823/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.07.26 10:41:33 INFO  no build target: using presentation compiler with only scala-library
+2020.07.26 10:41:33 INFO  skipping build import with status 'Installed'
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+2020.07.26 10:41:40 WARN  no build target for: /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.3...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/mateusz/Projekty/exercism/scala/say/.bloop'...
+[0m[32m[D][0m Loading project from '/home/mateusz/Projekty/exercism/scala/say/.bloop/say-test.json'
+[0m[32m[D][0m Loading project from '/home/mateusz/Projekty/exercism/scala/say/.bloop/say.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.8.
+[0m[32m[D][0m   => /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar
+[0m[32m[D][0m   => /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar
+[0m[32m[D][0m   => /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.8/scala-compiler-2.12.8.jar
+[0m[32m[D][0m   => /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar
+[0m[32m[D][0m   => /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'say', 'say-test'
+[0m[32m[D][0m Loading previous analysis for 'say-test' from '/home/mateusz/Projekty/exercism/scala/say/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip'.
+[0m[32m[D][0m Loading previous analysis for 'say' from '/home/mateusz/Projekty/exercism/scala/say/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher5971548107629026823/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher5971548107629026823/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.07.26 10:41:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mateusz/.cache/metals/bsp.trace.json
+2020.07.26 10:41:43 INFO  time: connected to build server in 9.87s
+2020.07.26 10:41:43 INFO  Connected to Build server v1.4.3
+2020.07.26 10:41:42 INFO  time: imported build in 0.19s
+2020.07.26 10:41:45 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.07.26 10:41:45 INFO  time: indexed workspace in 2.63s
+2020.07.26 10:41:48 INFO  compiling say-test (1 scala source)
+2020.07.26 10:41:58 INFO  time: compiled say-test in 9.96s
+2020.07.26 10:47:19 INFO  compiling say (1 scala source)
+2020.07.26 10:47:22 INFO  time: compiled say in 3.1s
+2020.07.26 10:47:56 INFO  compiling say (1 scala source)
+2020.07.26 10:47:58 INFO  time: compiled say in 1.68s
+2020.07.26 10:48:44 INFO  compiling say (1 scala source)
+2020.07.26 10:48:45 INFO  time: compiled say in 1.35s
+2020.07.26 10:52:08 INFO  compiling say-test (1 scala source)
+2020.07.26 10:52:09 INFO  time: compiled say-test in 1.3s
+2020.07.26 10:54:01 INFO  compiling say (1 scala source)
+2020.07.26 10:54:02 INFO  time: compiled say in 1.7s
+2020.07.26 10:54:04 INFO  compiling say (1 scala source)
+2020.07.26 10:54:06 INFO  time: compiled say in 1.55s
+2020.07.26 10:54:08 INFO  compiling say (1 scala source)
+2020.07.26 10:54:08 INFO  time: compiled say in 0.87s
+2020.07.26 10:54:08 INFO  compiling say (1 scala source)
+2020.07.26 10:54:10 INFO  time: compiled say in 0.54s
+2020.07.26 10:54:51 INFO  compiling say (1 scala source)
+2020.07.26 10:54:51 INFO  time: compiled say in 0.58s
+2020.07.26 10:54:51 INFO  compiling say (1 scala source)
+2020.07.26 10:54:52 INFO  time: compiled say in 0.51s
+2020.07.26 10:55:30 INFO  compiling say (1 scala source)
+2020.07.26 10:55:30 INFO  time: compiled say in 0.36s
+2020.07.26 10:55:30 INFO  compiling say (1 scala source)
+2020.07.26 10:55:30 INFO  time: compiled say in 0.5s
+2020.07.26 10:55:32 INFO  compiling say (1 scala source)
+2020.07.26 10:55:32 INFO  time: compiled say in 0.35s
+2020.07.26 10:55:32 INFO  compiling say (1 scala source)
+2020.07.26 10:55:32 INFO  time: compiled say in 0.47s
+2020.07.26 10:55:32 INFO  compiling say (1 scala source)
+2020.07.26 10:55:33 INFO  time: compiled say in 0.44s
+2020.07.26 10:55:35 INFO  compiling say (1 scala source)
+2020.07.26 10:55:36 INFO  time: compiled say in 1.17s
+2020.07.26 10:58:48 INFO  compiling say (1 scala source)
+2020.07.26 10:58:48 WARN  there were three deprecation warnings (since 2.11.0); re-run with -deprecation for details
+2020.07.26 10:58:48 INFO  time: compiled say in 0.92s
+Jul 26, 2020 10:59:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 472
+2020.07.26 10:59:35 INFO  compiling say (1 scala source)
+2020.07.26 10:59:35 WARN  there were three deprecation warnings (since 2.11.0); re-run with -deprecation for details
+2020.07.26 10:59:35 INFO  time: compiled say in 0.8s
+2020.07.26 10:59:44 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2020.07.26 12:35:25 INFO  started: Metals version 0.9.2 in workspace '/home/mateusz/Projekty/exercism/scala/say' for client vscode.
+2020.07.26 12:35:27 INFO  time: initialize in 1.93s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher12838133240944050140/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.07.26 12:35:28 INFO  no build target: using presentation compiler with only scala-library
+2020.07.26 12:35:28 INFO  skipping build import with status 'Installed'
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher12838133240944050140/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher12838133240944050140/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.07.26 12:35:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mateusz/.cache/metals/bsp.trace.json
+2020.07.26 12:35:28 INFO  time: connected to build server in 0.53s
+2020.07.26 12:35:28 INFO  Connected to Build server v1.4.3
+2020.07.26 12:35:31 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.07.26 12:35:31 INFO  time: indexed workspace in 2.83s
+2020.07.26 12:35:31 INFO  compiling say (1 scala source)
+2020.07.26 12:35:33 INFO  time: compiled say in 1.88s
+2020.07.26 12:36:49 INFO  compiling say (1 scala source)
+2020.07.26 12:36:49 INFO  time: compiled say in 0.76s
+2020.07.26 12:36:51 INFO  compiling say (1 scala source)
+2020.07.26 12:36:51 INFO  time: compiled say in 0.7s
+2020.07.26 12:37:30 INFO  compiling say (1 scala source)
+2020.07.26 12:37:30 INFO  time: compiled say in 0.55s
+2020.07.26 12:39:19 INFO  compiling say (1 scala source)
+2020.07.26 12:39:19 INFO  time: compiled say in 0.52s
+2020.07.26 12:39:22 INFO  compiling say (1 scala source)
+2020.07.26 12:39:22 INFO  time: compiled say in 0.54s
+2020.07.26 12:40:25 INFO  compiling say (1 scala source)
+2020.07.26 12:40:25 INFO  time: compiled say in 0.17s
+2020.07.26 12:40:25 INFO  compiling say (1 scala source)
+2020.07.26 12:40:25 INFO  time: compiled say in 0.12s
+2020.07.26 12:40:42 INFO  compiling say (1 scala source)
+2020.07.26 12:40:42 INFO  time: compiled say in 0.47s
+2020.07.26 12:40:49 INFO  compiling say (1 scala source)
+2020.07.26 12:40:49 INFO  time: compiled say in 0.24s
+2020.07.26 12:40:49 INFO  compiling say (1 scala source)
+2020.07.26 12:40:49 INFO  time: compiled say in 0.16s
+2020.07.26 12:40:55 INFO  compiling say (1 scala source)
+2020.07.26 12:40:55 INFO  time: compiled say in 0.22s
+2020.07.26 12:40:55 INFO  compiling say (1 scala source)
+2020.07.26 12:40:55 INFO  time: compiled say in 0.18s
+2020.07.26 12:41:08 INFO  compiling say (1 scala source)
+2020.07.26 12:41:08 INFO  time: compiled say in 0.19s
+2020.07.26 12:41:08 INFO  compiling say (1 scala source)
+2020.07.26 12:41:08 INFO  time: compiled say in 0.21s
+2020.07.26 12:41:09 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:69:45: stale bloop error: value unary_+ is not a member of String
+          if (toStr.contains("zero"))acc +  + " " + curr._2 + " "
+                                            ^^^^^
+2020.07.26 12:41:09 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:69:11: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+          if (toStr.contains("zero"))acc +  + " " + curr._2 + " "
+          ^
+2020.07.26 12:41:09 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:69:45: stale bloop error: value unary_+ is not a member of String
+          if (toStr.contains("zero"))acc +  + " " + curr._2 + " "
+                                            ^^^^^
+2020.07.26 12:41:09 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:69:11: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+          if (toStr.contains("zero"))acc +  + " " + curr._2 + " "
+          ^
+2020.07.26 12:41:12 INFO  compiling say (1 scala source)
+2020.07.26 12:41:12 INFO  time: compiled say in 0.1s
+2020.07.26 12:41:12 INFO  compiling say (1 scala source)
+2020.07.26 12:41:12 INFO  time: compiled say in 43ms
+2020.07.26 12:41:16 INFO  compiling say (1 scala source)
+2020.07.26 12:41:16 INFO  time: compiled say in 0.3s
+2020.07.26 12:41:16 INFO  compiling say (1 scala source)
+2020.07.26 12:41:16 INFO  time: compiled say in 0.16s
+2020.07.26 12:41:23 INFO  compiling say (1 scala source)
+2020.07.26 12:41:23 INFO  time: compiled say in 0.17s
+2020.07.26 12:41:23 INFO  compiling say (1 scala source)
+2020.07.26 12:41:23 INFO  time: compiled say in 0.15s
+2020.07.26 12:41:25 INFO  compiling say (1 scala source)
+2020.07.26 12:41:25 INFO  time: compiled say in 0.41s
+something's wrong: no file:///home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala in Option[String]RangePosition(file:///home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala, 1481, 1481, 1495)
+Jul 26, 2020 12:44:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 484
+Jul 26, 2020 12:44:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 485
+Jul 26, 2020 12:44:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 523
+Jul 26, 2020 12:44:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 522
+2020.07.26 12:44:33 INFO  compiling say (1 scala source)
+2020.07.26 12:44:33 INFO  time: compiled say in 0.58s
+2020.07.26 12:45:10 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:64: stale bloop warning: comparing values of types Char and String using `==' will always yield false
+      case numex(ones, "", "") => dict.get(ones.dropWhile(c => c == "0").toInt).getOrElse("")
+                                                               ^^^^^^^^
+2020.07.26 12:45:10 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:64: stale bloop warning: comparing values of types Char and String using `==' will always yield false
+      case numex(ones, "", "") => dict.get(ones.dropWhile(c => c == "0").toInt).getOrElse("")
+                                                               ^^^^^^^^
+2020.07.26 12:45:10 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:64: stale bloop warning: comparing values of types Char and String using `==' will always yield false
+      case numex(ones, "", "") => dict.get(ones.dropWhile(c => c == "0").toInt).getOrElse("")
+                                                               ^^^^^^^^
+2020.07.26 12:45:10 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:52:64: stale bloop warning: comparing values of types Char and String using `==' will always yield false
+      case numex(ones, "", "") => dict.get(ones.dropWhile(c => c == "0").toInt).getOrElse("")
+                                                               ^^^^^^^^
+2020.07.26 12:45:13 INFO  compiling say (1 scala source)
+2020.07.26 12:45:13 INFO  time: compiled say in 0.56s
+2020.07.26 12:46:13 INFO  compiling say (1 scala source)
+2020.07.26 12:46:13 INFO  time: compiled say in 0.52s
+2020.07.26 12:46:47 INFO  compiling say (1 scala source)
+2020.07.26 12:46:47 INFO  time: compiled say in 0.2s
+2020.07.26 12:46:47 INFO  compiling say (1 scala source)
+2020.07.26 12:46:47 INFO  time: compiled say in 0.18s
+2020.07.26 12:46:49 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:55:18: stale bloop error: type mismatch;
+ found   : Int(0)
+ required: String
+      case numex(0, 0, ones) => dict.get(hundreds.toInt).getOrElse("") + " hundred " + dict.get(tenths.toInt * 10).getOrElse("")+"-"+dict.get(ones.toInt).getOrElse("")
+                 ^
+2020.07.26 12:46:49 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:55:21: stale bloop error: type mismatch;
+ found   : Int(0)
+ required: String
+      case numex(0, 0, ones) => dict.get(hundreds.toInt).getOrElse("") + " hundred " + dict.get(tenths.toInt * 10).getOrElse("")+"-"+dict.get(ones.toInt).getOrElse("")
+                    ^
+2020.07.26 12:46:49 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:55:42: stale bloop error: not found: value hundreds
+      case numex(0, 0, ones) => dict.get(hundreds.toInt).getOrElse("") + " hundred " + dict.get(tenths.toInt * 10).getOrElse("")+"-"+dict.get(ones.toInt).getOrElse("")
+                                         ^^^^^^^^
+2020.07.26 12:46:49 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:55:97: stale bloop error: not found: value tenths
+      case numex(0, 0, ones) => dict.get(hundreds.toInt).getOrElse("") + " hundred " + dict.get(tenths.toInt * 10).getOrElse("")+"-"+dict.get(ones.toInt).getOrElse("")
+                                                                                                ^^^^^^
+2020.07.26 12:46:49 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:55:18: stale bloop error: type mismatch;
+ found   : Int(0)
+ required: String
+      case numex(0, 0, ones) => dict.get(hundreds.toInt).getOrElse("") + " hundred " + dict.get(tenths.toInt * 10).getOrElse("")+"-"+dict.get(ones.toInt).getOrElse("")
+                 ^
+2020.07.26 12:46:49 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:55:21: stale bloop error: type mismatch;
+ found   : Int(0)
+ required: String
+      case numex(0, 0, ones) => dict.get(hundreds.toInt).getOrElse("") + " hundred " + dict.get(tenths.toInt * 10).getOrElse("")+"-"+dict.get(ones.toInt).getOrElse("")
+                    ^
+2020.07.26 12:46:49 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:55:42: stale bloop error: not found: value hundreds
+      case numex(0, 0, ones) => dict.get(hundreds.toInt).getOrElse("") + " hundred " + dict.get(tenths.toInt * 10).getOrElse("")+"-"+dict.get(ones.toInt).getOrElse("")
+                                         ^^^^^^^^
+2020.07.26 12:46:49 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:55:97: stale bloop error: not found: value tenths
+      case numex(0, 0, ones) => dict.get(hundreds.toInt).getOrElse("") + " hundred " + dict.get(tenths.toInt * 10).getOrElse("")+"-"+dict.get(ones.toInt).getOrElse("")
+                                                                                                ^^^^^^
+2020.07.26 12:46:51 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:55:18: stale bloop error: type mismatch;
+ found   : Int(0)
+ required: String
+      case numex(0, 0, ones) => dict.get(hundreds.toInt).getOrElse("") + " hundred " + dict.get(tenths.toInt * 10).getOrElse("")+"-"+dict.get(ones.toInt).getOrElse("")
+                 ^
+2020.07.26 12:46:51 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:55:21: stale bloop error: type mismatch;
+ found   : Int(0)
+ required: String
+      case numex(0, 0, ones) => dict.get(hundreds.toInt).getOrElse("") + " hundred " + dict.get(tenths.toInt * 10).getOrElse("")+"-"+dict.get(ones.toInt).getOrElse("")
+                    ^
+2020.07.26 12:46:51 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:55:42: stale bloop error: not found: value hundreds
+      case numex(0, 0, ones) => dict.get(hundreds.toInt).getOrElse("") + " hundred " + dict.get(tenths.toInt * 10).getOrElse("")+"-"+dict.get(ones.toInt).getOrElse("")
+                                         ^^^^^^^^
+2020.07.26 12:46:51 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:55:97: stale bloop error: not found: value tenths
+      case numex(0, 0, ones) => dict.get(hundreds.toInt).getOrElse("") + " hundred " + dict.get(tenths.toInt * 10).getOrElse("")+"-"+dict.get(ones.toInt).getOrElse("")
+                                                                                                ^^^^^^
+2020.07.26 12:46:51 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:55:18: stale bloop error: type mismatch;
+ found   : Int(0)
+ required: String
+      case numex(0, 0, ones) => dict.get(hundreds.toInt).getOrElse("") + " hundred " + dict.get(tenths.toInt * 10).getOrElse("")+"-"+dict.get(ones.toInt).getOrElse("")
+                 ^
+2020.07.26 12:46:51 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:55:21: stale bloop error: type mismatch;
+ found   : Int(0)
+ required: String
+      case numex(0, 0, ones) => dict.get(hundreds.toInt).getOrElse("") + " hundred " + dict.get(tenths.toInt * 10).getOrElse("")+"-"+dict.get(ones.toInt).getOrElse("")
+                    ^
+2020.07.26 12:46:51 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:55:42: stale bloop error: not found: value hundreds
+      case numex(0, 0, ones) => dict.get(hundreds.toInt).getOrElse("") + " hundred " + dict.get(tenths.toInt * 10).getOrElse("")+"-"+dict.get(ones.toInt).getOrElse("")
+                                         ^^^^^^^^
+2020.07.26 12:46:51 INFO  /home/mateusz/Projekty/exercism/scala/say/src/main/scala/Say.scala:55:97: stale bloop error: not found: value tenths
+      case numex(0, 0, ones) => dict.get(hundreds.toInt).getOrElse("") + " hundred " + dict.get(tenths.toInt * 10).getOrElse("")+"-"+dict.get(ones.toInt).getOrElse("")
+                                                                                                ^^^^^^
+2020.07.26 12:46:53 INFO  compiling say (1 scala source)
+2020.07.26 12:46:53 INFO  time: compiled say in 0.2s
+2020.07.26 12:46:53 INFO  compiling say (1 scala source)
+2020.07.26 12:46:53 INFO  time: compiled say in 0.17s
+2020.07.26 12:47:00 INFO  compiling say (1 scala source)
+2020.07.26 12:47:00 INFO  time: compiled say in 0.45s
+2020.07.26 12:47:23 INFO  compiling say (1 scala source)
+2020.07.26 12:47:23 INFO  time: compiled say in 0.45s
+2020.07.26 12:47:40 INFO  compiling say (1 scala source)
+2020.07.26 12:47:40 INFO  time: compiled say in 0.58s
+Jul 26, 2020 12:48:29 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+2020.07.26 12:48:50 INFO  compiling say (1 scala source)
+2020.07.26 12:48:50 INFO  time: compiled say in 0.46s
+2020.07.26 12:51:57 INFO  compiling say (1 scala source)
+2020.07.26 12:51:57 INFO  time: compiled say in 0.26s
+2020.07.26 12:51:57 INFO  compiling say (1 scala source)
+2020.07.26 12:51:57 INFO  time: compiled say in 0.24s
+2020.07.26 12:52:02 INFO  compiling say (1 scala source)
+2020.07.26 12:52:02 INFO  time: compiled say in 0.15s
+2020.07.26 12:52:02 INFO  compiling say (1 scala source)
+2020.07.26 12:52:02 INFO  time: compiled say in 0.15s
+2020.07.26 12:52:07 INFO  compiling say (1 scala source)
+2020.07.26 12:52:07 INFO  time: compiled say in 0.49s
+2020.07.26 12:52:46 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...

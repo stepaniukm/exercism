@@ -1,0 +1,1 @@
+["sbt.Task[scala.collection.immutable.Map[java.lang.String, scala.collection.Seq[scala.Tuple2[java.nio.file.Path, sbt.nio.FileStamp]]]]",{"2.12.8":{"hashes":[["/home/mateusz/Projekty/exercism/scala/complex-numbers/src/main/scala/ComplexNumber.scala","903d1810738c9399cbc7da0f731ab24893142ad0"]],"lastModifiedTimes":[]}}]

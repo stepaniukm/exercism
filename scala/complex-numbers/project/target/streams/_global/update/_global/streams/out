@@ -1,0 +1,4 @@
+[debug] "not up to date. inChanged = true, force = false
+[debug] Updating ProjectRef(uri("file:/home/mateusz/Projekty/exercism/scala/complex-numbers/project/"), "complex-numbers-build")...
+[debug] Done updating ProjectRef(uri("file:/home/mateusz/Projekty/exercism/scala/complex-numbers/project/"), "complex-numbers-build")
+[warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.

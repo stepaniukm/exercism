@@ -1,0 +1,1 @@
+["sbt.Task[scala.collection.immutable.Map[java.lang.String, scala.collection.Seq[scala.Tuple2[java.nio.file.Path, sbt.nio.FileStamp]]]]",{"2.12.8":{"hashes":[["/home/mateusz/Projekty/exercism/scala/nucleotide-count/src/main/scala/NucleotideCount.scala","4f93ece36f12a46b678c26dbc57ce7db0b410259"]],"lastModifiedTimes":[]}}]

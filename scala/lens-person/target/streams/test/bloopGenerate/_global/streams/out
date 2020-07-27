@@ -1,0 +1,4 @@
+[debug] [lens-person-test] Classpath dependencies List()
+[debug] [lens-person-test] Dependencies from configurations List(lens-person)
+[debug] Bloop wrote the configuration of project 'lens-person-test' to '/home/mateusz/Projekty/exercism/scala/lens-person/.bloop/lens-person-test.json'
+[success] Generated .bloop/lens-person-test.json

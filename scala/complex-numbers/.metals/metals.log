@@ -1,0 +1,518 @@
+2020.07.26 12:55:15 INFO  started: Metals version 0.9.2 in workspace '/home/mateusz/Projekty/exercism/scala/complex-numbers' for client vscode.
+2020.07.26 12:55:17 INFO  time: initialize in 2.21s
+2020.07.26 12:55:18 INFO  no build target: using presentation compiler with only scala-library
+2020.07.26 12:55:22 WARN  no build target for: /home/mateusz/Projekty/exercism/scala/complex-numbers/src/main/scala/ComplexNumber.scala
+Jul 26, 2020 12:55:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+2020.07.26 12:55:22 WARN  no build target for: /home/mateusz/Projekty/exercism/scala/complex-numbers/src/test/scala/ComplexNumberTest.scala
+2020.07.26 12:55:22 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Dsbt.version=1.3.13 -jar /tmp/metals1448491613760487679/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.07.26 12:55:22 INFO  skipping build import with status 'Started'
+2020.07.26 12:55:27 INFO  [info] Updated file /home/mateusz/Projekty/exercism/scala/complex-numbers/project/build.properties: set sbt.version to 1.3.13
+2020.07.26 12:55:27 INFO  [info] welcome to sbt 1.3.13 (Ubuntu Java 11.0.8)
+2020.07.26 12:55:30 INFO  [info] loading global plugins from /home/mateusz/.sbt/1.0/plugins
+2020.07.26 12:55:34 INFO  [info] loading settings for project complex-numbers-build from metals.sbt ...
+2020.07.26 12:55:34 INFO  [info] loading project definition from /home/mateusz/Projekty/exercism/scala/complex-numbers/project
+2020.07.26 12:55:37 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+2020.07.26 12:55:39 INFO  [info] loading settings for project complex-numbers from build.sbt ...
+2020.07.26 12:55:39 INFO  [info] set current project to complex-numbers (in build file:/home/mateusz/Projekty/exercism/scala/complex-numbers/)
+2020.07.26 12:55:42 INFO  [success] Generated .bloop/complex-numbers-test.json
+2020.07.26 12:55:42 INFO  [success] Generated .bloop/complex-numbers.json
+2020.07.26 12:55:42 INFO  [success] Total time: 2 s, completed Jul 26, 2020, 12:55:42 PM
+2020.07.26 12:55:42 INFO  build tool exit: 0
+2020.07.26 12:55:42 INFO  time: ran 'sbt bloopInstall' in 20s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher14139258832816498196/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading 2 projects from '/home/mateusz/Projekty/exercism/scala/complex-numbers/.bloop'...
+[0m[32m[D][0m Loading project from '/home/mateusz/Projekty/exercism/scala/complex-numbers/.bloop/complex-numbers-test.json'
+[0m[32m[D][0m Loading project from '/home/mateusz/Projekty/exercism/scala/complex-numbers/.bloop/complex-numbers.json'
+[0m[32m[D][0m Missing analysis file for project 'complex-numbers'
+[0m[32m[D][0m Missing analysis file for project 'complex-numbers-test'
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher14139258832816498196/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher14139258832816498196/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.07.26 12:55:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mateusz/.cache/metals/bsp.trace.json
+2020.07.26 12:55:43 INFO  time: connected to build server in 0.34s
+2020.07.26 12:55:43 INFO  Connected to Build server v1.4.3
+2020.07.26 12:55:46 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.07.26 12:55:48 INFO  time: indexed workspace in 5.1s
+2020.07.26 12:55:48 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 12:55:48 INFO  time: compiled complex-numbers in 0.98s
+2020.07.26 12:55:49 INFO  compiling complex-numbers-test (1 scala source)
+2020.07.26 12:55:50 INFO  time: compiled complex-numbers-test in 1.04s
+2020.07.26 12:56:14 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 12:56:14 INFO  time: compiled complex-numbers in 0.11s
+2020.07.26 12:56:14 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 12:56:14 INFO  time: compiled complex-numbers in 0.1s
+Jul 26, 2020 12:56:16 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jul 26, 2020 12:56:16 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:416)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+2020.07.26 12:56:20 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 12:56:20 INFO  time: compiled complex-numbers in 0.32s
+2020.07.26 12:56:24 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 12:56:24 INFO  time: compiled complex-numbers in 0.3s
+2020.07.26 12:56:30 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 12:56:30 INFO  time: compiled complex-numbers in 0.18s
+2020.07.26 12:56:32 INFO  compiling complex-numbers-test (1 scala source)
+2020.07.26 12:56:32 INFO  time: compiled complex-numbers-test in 0.98s
+2020.07.26 12:56:42 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 12:56:42 INFO  time: compiled complex-numbers in 0.2s
+2020.07.26 12:56:46 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 12:56:46 INFO  time: compiled complex-numbers in 75ms
+2020.07.26 12:56:46 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 12:56:46 INFO  time: compiled complex-numbers in 41ms
+2020.07.26 12:56:54 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 12:56:54 INFO  time: compiled complex-numbers in 98ms
+2020.07.26 12:56:54 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 12:56:54 INFO  time: compiled complex-numbers in 39ms
+2020.07.26 12:56:58 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 12:56:58 INFO  time: compiled complex-numbers in 44ms
+2020.07.26 12:56:58 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 12:56:58 INFO  time: compiled complex-numbers in 66ms
+2020.07.26 12:57:02 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 12:57:02 INFO  time: compiled complex-numbers in 0.28s
+2020.07.26 12:57:10 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 12:57:10 INFO  time: compiled complex-numbers in 0.22s
+2020.07.26 12:57:15 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 12:57:15 INFO  time: compiled complex-numbers in 0.25s
+2020.07.26 12:57:17 INFO  compiling complex-numbers-test (1 scala source)
+2020.07.26 12:57:17 INFO  time: compiled complex-numbers-test in 0.46s
+Jul 26, 2020 12:57:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 401
+Jul 26, 2020 12:57:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 403
+Jul 26, 2020 12:57:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 402
+Jul 26, 2020 12:57:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 405
+2020.07.26 12:57:38 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 12:57:38 INFO  time: compiled complex-numbers in 93ms
+2020.07.26 12:57:38 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 12:57:38 INFO  time: compiled complex-numbers in 61ms
+2020.07.26 12:57:45 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 12:57:45 INFO  time: compiled complex-numbers in 40ms
+2020.07.26 12:57:45 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 12:57:45 INFO  time: compiled complex-numbers in 44ms
+2020.07.26 12:57:49 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 12:57:49 INFO  time: compiled complex-numbers in 43ms
+2020.07.26 12:57:49 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 12:57:49 INFO  time: compiled complex-numbers in 41ms
+Jul 26, 2020 12:57:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 583
+2020.07.26 12:58:00 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 12:58:00 INFO  time: compiled complex-numbers in 70ms
+2020.07.26 12:58:00 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 12:58:00 INFO  time: compiled complex-numbers in 68ms
+2020.07.26 12:58:05 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 12:58:05 INFO  time: compiled complex-numbers in 0.24s
+2020.07.26 12:58:08 INFO  compiling complex-numbers-test (1 scala source)
+2020.07.26 12:58:08 INFO  time: compiled complex-numbers-test in 0.53s
+2020.07.26 12:58:26 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 12:58:26 INFO  time: compiled complex-numbers in 0.33s
+2020.07.26 12:58:28 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 12:58:28 INFO  time: compiled complex-numbers in 0.27s
+2020.07.26 12:58:31 INFO  compiling complex-numbers-test (1 scala source)
+2020.07.26 12:58:31 INFO  time: compiled complex-numbers-test in 0.45s
+2020.07.26 12:58:48 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 12:58:48 INFO  time: compiled complex-numbers in 0.2s
+2020.07.26 12:58:48 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 12:58:48 INFO  time: compiled complex-numbers in 0.24s
+2020.07.26 12:58:50 INFO  compiling complex-numbers-test (1 scala source)
+2020.07.26 12:58:50 INFO  time: compiled complex-numbers-test in 0.33s
+2020.07.26 12:59:53 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 12:59:53 INFO  time: compiled complex-numbers in 0.18s
+2020.07.26 12:59:55 INFO  compiling complex-numbers-test (1 scala source)
+2020.07.26 12:59:55 INFO  time: compiled complex-numbers-test in 0.43s
+2020.07.26 13:00:12 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:00:12 INFO  time: compiled complex-numbers in 69ms
+2020.07.26 13:00:12 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:00:12 INFO  time: compiled complex-numbers in 55ms
+2020.07.26 13:00:14 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:00:14 INFO  time: compiled complex-numbers in 80ms
+2020.07.26 13:00:17 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:00:17 INFO  time: compiled complex-numbers in 36ms
+2020.07.26 13:00:19 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:00:19 INFO  time: compiled complex-numbers in 44ms
+2020.07.26 13:00:19 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:00:19 INFO  time: compiled complex-numbers in 32ms
+2020.07.26 13:00:22 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:00:22 INFO  time: compiled complex-numbers in 61ms
+2020.07.26 13:00:26 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:00:26 INFO  time: compiled complex-numbers in 0.23s
+2020.07.26 13:00:43 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:00:43 INFO  time: compiled complex-numbers in 76ms
+2020.07.26 13:00:43 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:00:43 INFO  time: compiled complex-numbers in 64ms
+2020.07.26 13:00:49 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:00:49 INFO  time: compiled complex-numbers in 0.18s
+2020.07.26 13:00:54 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:00:54 INFO  time: compiled complex-numbers in 0.18s
+2020.07.26 13:01:10 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:01:10 INFO  time: compiled complex-numbers in 0.19s
+2020.07.26 13:01:15 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:01:15 INFO  time: compiled complex-numbers in 0.25s
+2020.07.26 13:01:33 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:01:33 INFO  time: compiled complex-numbers in 0.2s
+2020.07.26 13:01:33 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:01:34 INFO  Deduplicating compilation of complex-numbers from bsp client 'Metals 0.9.2' (since 5m 51.443s)
+2020.07.26 13:01:34 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:01:34 INFO  time: compiled complex-numbers in 0.21s
+2020.07.26 13:01:34 INFO  compiling complex-numbers-test (1 scala source)
+2020.07.26 13:01:34 INFO  time: compiled complex-numbers-test in 0.44s
+2020.07.26 13:01:50 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:01:50 INFO  time: compiled complex-numbers in 0.23s
+2020.07.26 13:01:52 INFO  compiling complex-numbers-test (1 scala source)
+2020.07.26 13:01:52 INFO  time: compiled complex-numbers-test in 0.33s
+2020.07.26 13:02:02 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:02:02 INFO  time: compiled complex-numbers in 0.23s
+2020.07.26 13:02:05 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:02:05 INFO  time: compiled complex-numbers in 0.2s
+2020.07.26 13:02:13 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:02:13 INFO  time: compiled complex-numbers in 0.16s
+2020.07.26 13:02:15 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:02:15 INFO  time: compiled complex-numbers in 0.21s
+2020.07.26 13:02:17 INFO  compiling complex-numbers-test (1 scala source)
+2020.07.26 13:02:17 INFO  time: compiled complex-numbers-test in 0.34s
+2020.07.26 13:02:34 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:02:34 INFO  time: compiled complex-numbers in 0.16s
+2020.07.26 13:02:34 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:02:34 INFO  time: compiled complex-numbers in 93ms
+2020.07.26 13:02:45 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:02:45 INFO  time: compiled complex-numbers in 78ms
+2020.07.26 13:02:45 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:02:45 INFO  time: compiled complex-numbers in 74ms
+2020.07.26 13:02:50 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:02:50 INFO  time: compiled complex-numbers in 76ms
+2020.07.26 13:02:50 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:02:50 INFO  time: compiled complex-numbers in 62ms
+Jul 26, 2020 1:02:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1445
+2020.07.26 13:03:08 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:03:08 INFO  time: compiled complex-numbers in 0.21s
+2020.07.26 13:03:38 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:03:38 INFO  time: compiled complex-numbers in 0.1s
+2020.07.26 13:03:38 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:03:38 INFO  time: compiled complex-numbers in 0.16s
+2020.07.26 13:03:45 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:03:45 INFO  time: compiled complex-numbers in 0.22s
+2020.07.26 13:03:53 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:03:53 INFO  time: compiled complex-numbers in 49ms
+2020.07.26 13:03:53 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:03:53 INFO  time: compiled complex-numbers in 35ms
+2020.07.26 13:04:00 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:04:00 INFO  time: compiled complex-numbers in 0.2s
+2020.07.26 13:04:03 INFO  compiling complex-numbers-test (1 scala source)
+2020.07.26 13:04:03 INFO  time: compiled complex-numbers-test in 0.33s
+Jul 26, 2020 1:04:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1715
+2020.07.26 13:04:23 INFO  compiling complex-numbers-test (1 scala source)
+2020.07.26 13:04:23 INFO  time: compiled complex-numbers-test in 0.57s
+2020.07.26 13:04:23 INFO  compiling complex-numbers-test (1 scala source)
+2020.07.26 13:04:23 INFO  time: compiled complex-numbers-test in 0.34s
+2020.07.26 13:04:59 INFO  compiling complex-numbers-test (1 scala source)
+2020.07.26 13:04:59 INFO  time: compiled complex-numbers-test in 0.46s
+2020.07.26 13:04:59 INFO  compiling complex-numbers-test (1 scala source)
+2020.07.26 13:05:00 INFO  time: compiled complex-numbers-test in 0.74s
+2020.07.26 13:05:03 INFO  compiling complex-numbers-test (1 scala source)
+2020.07.26 13:05:03 INFO  time: compiled complex-numbers-test in 0.25s
+2020.07.26 13:05:03 INFO  compiling complex-numbers-test (1 scala source)
+2020.07.26 13:05:03 INFO  time: compiled complex-numbers-test in 0.28s
+2020.07.26 13:05:03 ERROR code navigation does not work for the file '/home/mateusz/Projekty/exercism/scala/complex-numbers/src/test/scala/ComplexNumberTest.scala' because the SemanticDB file '/home/mateusz/Projekty/exercism/scala/complex-numbers/.bloop/complex-numbers/bloop-bsp-clients-classes/test-classes-Metals-1NxdDtSmRHaj7e9yrV-sDQ==/META-INF/semanticdb/src/test/scala/ComplexNumberTest.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+Jul 26, 2020 1:07:00 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jul 26, 2020 1:07:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:416)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+2020.07.26 13:07:11 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:07:11 INFO  time: compiled complex-numbers in 85ms
+2020.07.26 13:07:11 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:07:11 INFO  time: compiled complex-numbers in 92ms
+2020.07.26 13:07:36 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:07:36 INFO  time: compiled complex-numbers in 63ms
+2020.07.26 13:07:36 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:07:36 INFO  time: compiled complex-numbers in 68ms
+Jul 26, 2020 1:07:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2173
+2020.07.26 13:07:43 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:07:43 INFO  time: compiled complex-numbers in 93ms
+2020.07.26 13:07:43 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:07:43 INFO  time: compiled complex-numbers in 88ms
+2020.07.26 13:07:54 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:07:54 INFO  time: compiled complex-numbers in 0.12s
+2020.07.26 13:07:54 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:07:54 INFO  time: compiled complex-numbers in 0.11s
+2020.07.26 13:08:02 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:08:02 INFO  time: compiled complex-numbers in 56ms
+2020.07.26 13:08:02 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:08:02 INFO  time: compiled complex-numbers in 56ms
+2020.07.26 13:08:05 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:08:05 INFO  time: compiled complex-numbers in 84ms
+2020.07.26 13:08:10 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:08:10 INFO  time: compiled complex-numbers in 0.1s
+2020.07.26 13:08:10 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:08:10 INFO  time: compiled complex-numbers in 97ms
+2020.07.26 13:08:21 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:08:21 INFO  time: compiled complex-numbers in 66ms
+2020.07.26 13:08:21 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:08:21 INFO  time: compiled complex-numbers in 42ms
+2020.07.26 13:08:23 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:08:23 INFO  time: compiled complex-numbers in 40ms
+2020.07.26 13:08:30 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:08:30 INFO  time: compiled complex-numbers in 94ms
+2020.07.26 13:08:30 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:08:30 INFO  time: compiled complex-numbers in 83ms
+2020.07.26 13:08:37 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:08:37 INFO  time: compiled complex-numbers in 91ms
+2020.07.26 13:08:37 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:08:37 INFO  time: compiled complex-numbers in 71ms
+2020.07.26 13:09:23 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:09:23 INFO  time: compiled complex-numbers in 75ms
+2020.07.26 13:09:23 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:09:23 INFO  time: compiled complex-numbers in 83ms
+2020.07.26 13:09:30 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:09:30 INFO  time: compiled complex-numbers in 0.11s
+2020.07.26 13:09:30 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:09:30 INFO  time: compiled complex-numbers in 0.12s
+2020.07.26 13:09:47 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:09:47 INFO  time: compiled complex-numbers in 59ms
+2020.07.26 13:09:47 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:09:47 INFO  time: compiled complex-numbers in 38ms
+2020.07.26 13:10:26 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2020.07.26 13:10:42 INFO  started: Metals version 0.9.2 in workspace '/home/mateusz/Projekty/exercism/scala/complex-numbers' for client vscode.
+2020.07.26 13:10:44 INFO  time: initialize in 1.96s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher16185565576547233899/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.07.26 13:10:45 INFO  no build target: using presentation compiler with only scala-library
+2020.07.26 13:10:45 INFO  skipping build import with status 'Installed'
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher16185565576547233899/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher16185565576547233899/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.07.26 13:10:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mateusz/.cache/metals/bsp.trace.json
+2020.07.26 13:10:46 INFO  time: connected to build server in 0.81s
+2020.07.26 13:10:46 INFO  Connected to Build server v1.4.3
+2020.07.26 13:10:50 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.07.26 13:10:50 INFO  time: indexed workspace in 3.89s
+2020.07.26 13:10:50 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:10:52 INFO  time: compiled complex-numbers in 2.2s
+2020.07.26 13:10:52 INFO  compiling complex-numbers-test (1 scala source)
+Jul 26, 2020 1:10:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Jul 26, 2020 1:10:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+Jul 26, 2020 1:10:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+Jul 26, 2020 1:10:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+Jul 26, 2020 1:10:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+Jul 26, 2020 1:10:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20
+2020.07.26 13:10:52 INFO  time: compiled complex-numbers-test in 0.51s
+Jul 26, 2020 1:10:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 25
+2020.07.26 13:11:07 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:11:07 INFO  time: compiled complex-numbers in 0.14s
+2020.07.26 13:11:07 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:11:07 INFO  time: compiled complex-numbers in 80ms
+2020.07.26 13:11:40 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:11:40 INFO  time: compiled complex-numbers in 66ms
+2020.07.26 13:11:40 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:11:40 INFO  time: compiled complex-numbers in 43ms
+2020.07.26 13:11:43 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:11:43 INFO  time: compiled complex-numbers in 0.11s
+2020.07.26 13:11:43 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:11:43 INFO  time: compiled complex-numbers in 71ms
+Jul 26, 2020 1:12:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 296
+Jul 26, 2020 1:12:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 295
+Jul 26, 2020 1:12:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 297
+Jul 26, 2020 1:12:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 299
+Jul 26, 2020 1:12:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 305
+Jul 26, 2020 1:12:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 436
+2020.07.26 13:13:01 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:13:01 INFO  time: compiled complex-numbers in 89ms
+2020.07.26 13:13:03 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:13:03 INFO  time: compiled complex-numbers in 0.11s
+2020.07.26 13:13:03 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:13:03 INFO  time: compiled complex-numbers in 92ms
+2020.07.26 13:13:16 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:13:16 INFO  time: compiled complex-numbers in 0.12s
+2020.07.26 13:13:16 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:13:16 INFO  time: compiled complex-numbers in 98ms
+2020.07.26 13:13:22 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:13:22 INFO  time: compiled complex-numbers in 65ms
+2020.07.26 13:13:22 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:13:22 INFO  time: compiled complex-numbers in 39ms
+2020.07.26 13:13:30 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:13:30 INFO  time: compiled complex-numbers in 63ms
+2020.07.26 13:13:30 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:13:30 INFO  time: compiled complex-numbers in 38ms
+2020.07.26 13:13:32 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:13:32 INFO  time: compiled complex-numbers in 0.1s
+2020.07.26 13:13:38 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:13:38 INFO  time: compiled complex-numbers in 0.28s
+2020.07.26 13:14:04 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:14:04 INFO  time: compiled complex-numbers in 0.15s
+2020.07.26 13:14:04 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:14:04 INFO  time: compiled complex-numbers in 0.13s
+2020.07.26 13:14:14 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:14:14 INFO  time: compiled complex-numbers in 82ms
+2020.07.26 13:14:14 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:14:14 INFO  time: compiled complex-numbers in 34ms
+2020.07.26 13:14:33 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:14:33 INFO  time: compiled complex-numbers in 0.12s
+2020.07.26 13:14:43 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:14:43 INFO  time: compiled complex-numbers in 42ms
+2020.07.26 13:14:44 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:14:44 INFO  time: compiled complex-numbers in 59ms
+2020.07.26 13:14:58 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:14:58 INFO  time: compiled complex-numbers in 0.11s
+2020.07.26 13:14:58 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:14:58 INFO  time: compiled complex-numbers in 96ms
+2020.07.26 13:15:11 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:15:11 INFO  time: compiled complex-numbers in 0.31s
+2020.07.26 13:15:14 INFO  compiling complex-numbers-test (1 scala source)
+2020.07.26 13:15:14 INFO  time: compiled complex-numbers-test in 0.2s
+2020.07.26 13:15:44 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:15:44 INFO  time: compiled complex-numbers in 51ms
+2020.07.26 13:15:44 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:15:44 INFO  time: compiled complex-numbers in 31ms
+2020.07.26 13:16:03 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:16:03 INFO  time: compiled complex-numbers in 0.12s
+2020.07.26 13:16:03 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:16:03 INFO  time: compiled complex-numbers in 78ms
+2020.07.26 13:16:15 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:16:15 INFO  time: compiled complex-numbers in 0.11s
+2020.07.26 13:16:15 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:16:15 INFO  time: compiled complex-numbers in 73ms
+2020.07.26 13:16:34 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:16:34 INFO  time: compiled complex-numbers in 76ms
+2020.07.26 13:16:34 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:16:34 INFO  time: compiled complex-numbers in 90ms
+2020.07.26 13:16:50 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:16:50 INFO  time: compiled complex-numbers in 0.29s
+2020.07.26 13:17:01 INFO  compiling complex-numbers-test (1 scala source)
+2020.07.26 13:17:01 INFO  time: compiled complex-numbers-test in 0.25s
+2020.07.26 13:17:40 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:17:40 INFO  time: compiled complex-numbers in 0.26s
+2020.07.26 13:17:58 INFO  compiling complex-numbers-test (1 scala source)
+2020.07.26 13:17:58 INFO  time: compiled complex-numbers-test in 0.21s
+2020.07.26 13:17:58 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:17:58 INFO  time: compiled complex-numbers in 98ms
+2020.07.26 13:17:58 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:17:58 INFO  time: compiled complex-numbers in 0.11s
+2020.07.26 13:18:55 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:18:55 INFO  time: compiled complex-numbers in 0.23s
+2020.07.26 13:18:56 INFO  compiling complex-numbers-test (1 scala source)
+2020.07.26 13:18:57 INFO  time: compiled complex-numbers-test in 1.06s
+2020.07.26 13:19:40 INFO  compiling complex-numbers-test (1 scala source)
+2020.07.26 13:19:41 INFO  time: compiled complex-numbers-test in 1.2s
+2020.07.26 13:19:43 INFO  compiling complex-numbers-test (1 scala source)
+2020.07.26 13:19:43 INFO  time: compiled complex-numbers-test in 0.88s
+2020.07.26 13:19:46 INFO  compiling complex-numbers-test (1 scala source)
+2020.07.26 13:19:47 INFO  time: compiled complex-numbers-test in 1.27s
+2020.07.26 13:22:04 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:22:04 INFO  time: compiled complex-numbers in 0.13s
+2020.07.26 13:22:04 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:22:04 INFO  time: compiled complex-numbers in 0.11s
+2020.07.26 13:22:12 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:22:12 INFO  time: compiled complex-numbers in 80ms
+2020.07.26 13:22:12 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:22:12 INFO  time: compiled complex-numbers in 37ms
+2020.07.26 13:22:18 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:22:18 INFO  time: compiled complex-numbers in 97ms
+2020.07.26 13:22:18 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:22:18 INFO  time: compiled complex-numbers in 70ms
+2020.07.26 13:22:21 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:22:21 INFO  time: compiled complex-numbers in 50ms
+2020.07.26 13:22:21 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:22:21 INFO  time: compiled complex-numbers in 39ms
+2020.07.26 13:22:27 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:22:27 INFO  time: compiled complex-numbers in 53ms
+2020.07.26 13:22:27 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:22:27 INFO  time: compiled complex-numbers in 46ms
+2020.07.26 13:22:36 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:22:36 INFO  time: compiled complex-numbers in 0.11s
+2020.07.26 13:22:36 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:22:36 INFO  time: compiled complex-numbers in 78ms
+2020.07.26 13:23:07 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:23:07 INFO  time: compiled complex-numbers in 0.11s
+2020.07.26 13:23:07 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:23:07 INFO  time: compiled complex-numbers in 97ms
+2020.07.26 13:23:14 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:23:14 INFO  time: compiled complex-numbers in 0.14s
+2020.07.26 13:23:14 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:23:14 INFO  time: compiled complex-numbers in 0.1s
+2020.07.26 13:23:39 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:23:39 INFO  time: compiled complex-numbers in 50ms
+2020.07.26 13:23:39 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:23:39 INFO  time: compiled complex-numbers in 56ms
+2020.07.26 13:23:54 INFO  compiling complex-numbers (1 scala source)
+2020.07.26 13:23:54 INFO  time: compiled complex-numbers in 0.23s
+2020.07.26 13:26:24 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+Jul 26, 2020 1:26:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)
+	at com.sun.proxy.$Proxy10.onBuildExit(Unknown Source)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:76)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:72)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:241)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:259)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:94)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:172)
+	at java.base/java.io.OutputStream.write(OutputStream.java:122)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:152)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 14 more
+

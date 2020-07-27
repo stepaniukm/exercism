@@ -1,0 +1,99 @@
+INFO  started: Metals version 0.8.3 in workspace '/home/mateusz/Projekty/exercism/scala/hello-world'
+INFO  time: initialize in 0.42s
+WARN  Unsupported sbt version <unknown>
+WARN  no build target for: /home/mateusz/Projekty/exercism/scala/hello-world/src/main/scala/HelloWorld.scala
+WARN  no build target for: /home/mateusz/Projekty/exercism/scala/hello-world/src/main/scala/HelloWorld.scala
+WARN  no build target for: /home/mateusz/Projekty/exercism/scala/hello-world/src/main/scala/HelloWorld.scala
+INFO  no build target: using presentation compiler with only scala-library
+Mar 20, 2020 8:11:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24
+Mar 20, 2020 8:11:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26
+Mar 20, 2020 8:11:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27
+Mar 20, 2020 8:11:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 31
+Mar 20, 2020 8:11:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 32
+Mar 20, 2020 8:11:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 37
+Mar 20, 2020 8:11:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 39
+Mar 20, 2020 8:11:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 38
+Mar 20, 2020 8:11:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 41
+Mar 20, 2020 8:11:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 46
+Mar 20, 2020 8:11:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 44
+Mar 20, 2020 8:11:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+WARN  no build target for: /home/mateusz/Projekty/exercism/scala/hello-world/src/main/scala/HelloWorld.scala
+WARN  no build target for: /home/mateusz/Projekty/exercism/scala/hello-world/src/main/scala/HelloWorld.scala
+WARN  no build target for: /home/mateusz/Projekty/exercism/scala/hello-world/src/main/scala/HelloWorld.scala
+WARN  no build target for: /home/mateusz/Projekty/exercism/scala/hello-world/src/test/scala/HelloWorldTest.scala
+INFO  running '/home/mateusz/Downloads/jre1.8.0_241/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals7996511429279641314/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+INFO  [info] Loading settings for project hello-world-build from metals.sbt ...
+INFO  [info] Loading project definition from /home/mateusz/Projekty/exercism/scala/hello-world/project
+INFO  [info] Loading settings for project hello-world from build.sbt ...
+INFO  [info] Set current project to hello-world (in build file:/home/mateusz/Projekty/exercism/scala/hello-world/)
+INFO  [success] Generated .bloop/hello-world.json
+INFO  [success] Generated .bloop/hello-world-test.json
+INFO  [success] Total time: 7 s, completed Mar 20, 2020 8:19:27 PM
+INFO  time: ran 'sbt bloopInstall' in 56s
+INFO  build tool exit: 0
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher6051546285627180249/bsp.socket'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.0-RC1-105-118a551b...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading 2 projects from '/home/mateusz/Projekty/exercism/scala/hello-world/.bloop'...
+[0m[32m[D][0m Loading project from '/home/mateusz/Projekty/exercism/scala/hello-world/.bloop/hello-world.json'
+[0m[32m[D][0m Loading project from '/home/mateusz/Projekty/exercism/scala/hello-world/.bloop/hello-world-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.8.
+[0m[32m[D][0m   => /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar
+[0m[32m[D][0m   => /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar
+[0m[32m[D][0m   => /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.8/scala-compiler-2.12.8.jar
+[0m[32m[D][0m   => /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar
+[0m[32m[D][0m   => /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.jar
+[0m[32m[D][0m Missing analysis file for project 'hello-world'
+[0m[32m[D][0m Missing analysis file for project 'hello-world-test'
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher6051546285627180249/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher6051546285627180249/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mateusz/.cache/metals/bsp.trace.json
+ERROR Timeout waiting for 'build/initialize' response
+ERROR Failed to connect with build server, no functionality will work.
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1784)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:259)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:203)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+INFO  skipping build import with status 'Installed'
+WARN  no build target for: /home/mateusz/Projekty/exercism/scala/hello-world/src/main/scala/HelloWorld.scala
+WARN  no build target for: /home/mateusz/Projekty/exercism/scala/hello-world/src/main/scala/HelloWorld.scala
+WARN  no build target for: /home/mateusz/Projekty/exercism/scala/hello-world/src/main/scala/HelloWorld.scala
+WARN  no build target for: /home/mateusz/Projekty/exercism/scala/hello-world/src/main/scala/HelloWorld.scala
+WARN  no build target for: /home/mateusz/Projekty/exercism/scala/hello-world/src/main/scala/HelloWorld.scala
+INFO  shutting down Metals

@@ -1,0 +1,4 @@
+[debug] [nucleotide-count-test] Classpath dependencies List()
+[debug] [nucleotide-count-test] Dependencies from configurations List(nucleotide-count)
+[debug] Bloop wrote the configuration of project 'nucleotide-count-test' to '/home/mateusz/Projekty/exercism/scala/nucleotide-count/.bloop/nucleotide-count-test.json'
+[success] Generated .bloop/nucleotide-count-test.json

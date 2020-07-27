@@ -1,0 +1,16 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mSayTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- zero[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- one[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fourteen[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- twenty[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- twenty-two[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- one hundred[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- one hundred twenty-three[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- one thousand[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- one thousand two hundred thirty-four[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- one million[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- one million two thousand three hundred forty-five[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- one billion[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- a big number[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- numbers below zero are out of range[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- numbers above 999,999,999,999 are out of range[0m[0m

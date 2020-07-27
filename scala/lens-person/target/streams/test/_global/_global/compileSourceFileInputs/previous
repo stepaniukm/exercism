@@ -1,0 +1,1 @@
+["sbt.Task[scala.collection.immutable.Map[java.lang.String, scala.collection.Seq[scala.Tuple2[java.nio.file.Path, sbt.nio.FileStamp]]]]",{"2.12.8":{"hashes":[["/home/mateusz/Projekty/exercism/scala/lens-person/src/test/scala/LensPersonTest.scala","a424eb92d6c47a36b874a42703190a9622e2738e"]],"lastModifiedTimes":[]}}]

@@ -1,0 +1,4 @@
+[debug] [say-test] Classpath dependencies List()
+[debug] [say-test] Dependencies from configurations List(say)
+[debug] Bloop wrote the configuration of project 'say-test' to '/home/mateusz/Projekty/exercism/scala/say/.bloop/say-test.json'
+[success] Generated .bloop/say-test.json

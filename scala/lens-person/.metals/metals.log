@@ -1,0 +1,209 @@
+2020.07.26 13:26:34 INFO  started: Metals version 0.9.2 in workspace '/home/mateusz/Projekty/exercism/scala/lens-person' for client vscode.
+2020.07.26 13:26:35 INFO  time: initialize in 1.93s
+2020.07.26 13:26:36 INFO  no build target: using presentation compiler with only scala-library
+2020.07.26 13:26:40 WARN  no build target for: /home/mateusz/Projekty/exercism/scala/lens-person/src/main/scala/LensPerson.scala
+2020.07.26 13:26:40 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Dsbt.version=1.3.13 -jar /tmp/metals13565679115914307167/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.07.26 13:26:41 INFO  skipping build import with status 'Started'
+2020.07.26 13:26:42 WARN  no build target for: /home/mateusz/Projekty/exercism/scala/lens-person/src/test/scala/LensPersonTest.scala
+2020.07.26 13:26:45 INFO  [info] Updated file /home/mateusz/Projekty/exercism/scala/lens-person/project/build.properties: set sbt.version to 1.3.13
+2020.07.26 13:26:45 INFO  [info] welcome to sbt 1.3.13 (Ubuntu Java 11.0.8)
+2020.07.26 13:26:47 INFO  [info] loading global plugins from /home/mateusz/.sbt/1.0/plugins
+2020.07.26 13:26:52 INFO  [info] loading settings for project lens-person-build from metals.sbt ...
+2020.07.26 13:26:52 INFO  [info] loading project definition from /home/mateusz/Projekty/exercism/scala/lens-person/project
+2020.07.26 13:26:56 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+2020.07.26 13:27:00 INFO  [info] loading settings for project lens-person from build.sbt ...
+2020.07.26 13:27:00 INFO  [info] set current project to lens-person (in build file:/home/mateusz/Projekty/exercism/scala/lens-person/)
+2020.07.26 13:27:03 WARN  no build target for: /home/mateusz/Projekty/exercism/scala/lens-person/src/main/scala/LensPerson.scala
+2020.07.26 13:27:12 INFO  [success] Generated .bloop/lens-person.json
+2020.07.26 13:27:12 INFO  [success] Generated .bloop/lens-person-test.json
+2020.07.26 13:27:12 INFO  [success] Total time: 11 s, completed Jul 26, 2020, 1:27:12 PM
+2020.07.26 13:27:12 INFO  build tool exit: 0
+2020.07.26 13:27:12 INFO  time: ran 'sbt bloopInstall' in 32s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher8191455949551899631/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading 2 projects from '/home/mateusz/Projekty/exercism/scala/lens-person/.bloop'...
+[0m[32m[D][0m Loading project from '/home/mateusz/Projekty/exercism/scala/lens-person/.bloop/lens-person.json'
+[0m[32m[D][0m Loading project from '/home/mateusz/Projekty/exercism/scala/lens-person/.bloop/lens-person-test.json'
+[0m[32m[D][0m Missing analysis file for project 'lens-person-test'
+[0m[32m[D][0m Missing analysis file for project 'lens-person'
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher8191455949551899631/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher8191455949551899631/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.07.26 13:27:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mateusz/.cache/metals/bsp.trace.json
+2020.07.26 13:27:13 INFO  time: connected to build server in 0.2s
+2020.07.26 13:27:13 INFO  Connected to Build server v1.4.3
+2020.07.26 13:27:14 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.07.26 13:27:16 INFO  time: indexed workspace in 3.44s
+2020.07.26 13:27:16 INFO  compiling lens-person (1 scala source)
+2020.07.26 13:27:19 INFO  time: compiled lens-person in 2.35s
+2020.07.26 13:27:19 INFO  compiling lens-person-test (1 scala source)
+2020.07.26 13:27:20 INFO  time: compiled lens-person-test in 1.34s
+2020.07.26 13:28:25 INFO  compiling lens-person (1 scala source)
+2020.07.26 13:28:25 INFO  time: compiled lens-person in 0.19s
+2020.07.26 13:28:25 INFO  compiling lens-person (1 scala source)
+2020.07.26 13:28:25 INFO  time: compiled lens-person in 48ms
+2020.07.26 13:28:30 INFO  compiling lens-person (1 scala source)
+2020.07.26 13:28:30 INFO  time: compiled lens-person in 0.22s
+2020.07.26 13:28:30 INFO  compiling lens-person (1 scala source)
+2020.07.26 13:28:30 INFO  time: compiled lens-person in 0.22s
+2020.07.26 13:28:34 INFO  compiling lens-person (1 scala source)
+2020.07.26 13:28:34 INFO  time: compiled lens-person in 0.24s
+2020.07.26 13:28:34 INFO  compiling lens-person (1 scala source)
+2020.07.26 13:28:34 INFO  time: compiled lens-person in 0.1s
+2020.07.26 13:28:39 INFO  compiling lens-person (1 scala source)
+2020.07.26 13:28:39 INFO  time: compiled lens-person in 0.23s
+2020.07.26 13:28:39 INFO  compiling lens-person (1 scala source)
+2020.07.26 13:28:39 INFO  time: compiled lens-person in 0.23s
+Jul 26, 2020 1:28:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 94
+Jul 26, 2020 1:28:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 95
+Jul 26, 2020 1:28:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 97
+Jul 26, 2020 1:28:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 99
+Jul 26, 2020 1:28:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 96
+Jul 26, 2020 1:28:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 102
+Jul 26, 2020 1:28:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 104
+2020.07.26 13:28:44 INFO  compiling lens-person (1 scala source)
+2020.07.26 13:28:44 INFO  time: compiled lens-person in 65ms
+2020.07.26 13:28:44 INFO  compiling lens-person (1 scala source)
+2020.07.26 13:28:44 INFO  time: compiled lens-person in 67ms
+2020.07.26 13:28:49 INFO  compiling lens-person (1 scala source)
+2020.07.26 13:28:49 INFO  time: compiled lens-person in 64ms
+2020.07.26 13:28:49 INFO  compiling lens-person (1 scala source)
+2020.07.26 13:28:49 INFO  time: compiled lens-person in 36ms
+2020.07.26 13:28:51 INFO  compiling lens-person (1 scala source)
+2020.07.26 13:28:53 INFO  time: compiled lens-person in 1.39s
+2020.07.26 13:29:41 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2020.07.26 22:26:44 INFO  started: Metals version 0.9.2 in workspace '/home/mateusz/Projekty/exercism/scala/lens-person' for client vscode.
+2020.07.26 22:26:46 INFO  time: initialize in 1.97s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher4359888113754673029/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.07.26 22:26:47 INFO  no build target: using presentation compiler with only scala-library
+2020.07.26 22:26:47 INFO  skipping build import with status 'Installed'
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher4359888113754673029/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher4359888113754673029/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.07.26 22:26:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mateusz/.cache/metals/bsp.trace.json
+2020.07.26 22:26:48 INFO  time: connected to build server in 0.68s
+2020.07.26 22:26:48 INFO  Connected to Build server v1.4.3
+2020.07.26 22:26:51 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.07.26 22:26:51 INFO  time: indexed workspace in 3.51s
+Jul 26, 2020 10:30:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 36
+Jul 26, 2020 10:30:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 39
+Jul 26, 2020 10:30:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 35
+Jul 26, 2020 10:30:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 42
+2020.07.26 22:30:25 INFO  compiling lens-person (1 scala source)
+2020.07.26 22:30:25 INFO  time: compiled lens-person in 0.18s
+2020.07.26 22:30:25 INFO  compiling lens-person (1 scala source)
+2020.07.26 22:30:25 INFO  time: compiled lens-person in 66ms
+2020.07.26 22:30:32 INFO  compiling lens-person (1 scala source)
+2020.07.26 22:30:32 INFO  time: compiled lens-person in 0.71s
+2020.07.26 22:31:58 INFO  compiling lens-person (1 scala source)
+2020.07.26 22:31:58 INFO  time: compiled lens-person in 0.58s
+2020.07.26 22:32:02 INFO  compiling lens-person (1 scala source)
+2020.07.26 22:32:02 INFO  time: compiled lens-person in 0.58s
+2020.07.26 22:33:28 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2020.07.26 22:33:38 INFO  started: Metals version 0.9.2 in workspace '/home/mateusz/Projekty/exercism/scala/lens-person' for client vscode.
+2020.07.26 22:33:40 INFO  time: initialize in 2.13s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher8199381705568447036/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.07.26 22:33:41 INFO  no build target: using presentation compiler with only scala-library
+2020.07.26 22:33:41 INFO  skipping build import with status 'Installed'
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher8199381705568447036/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher8199381705568447036/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.07.26 22:33:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mateusz/.cache/metals/bsp.trace.json
+2020.07.26 22:33:41 INFO  time: connected to build server in 0.6s
+2020.07.26 22:33:41 INFO  Connected to Build server v1.4.3
+2020.07.26 22:33:44 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.07.26 22:33:44 INFO  time: indexed workspace in 3.23s
+Jul 26, 2020 10:33:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2020.07.26 22:34:11 INFO  compiling lens-person (1 scala source)
+2020.07.26 22:34:11 INFO  time: compiled lens-person in 0.38s
+2020.07.26 22:34:11 INFO  compiling lens-person (1 scala source)
+2020.07.26 22:34:11 INFO  time: compiled lens-person in 0.15s
+2020.07.26 22:34:22 INFO  compiling lens-person (1 scala source)
+2020.07.26 22:34:22 INFO  time: compiled lens-person in 83ms
+2020.07.26 22:34:22 INFO  compiling lens-person (1 scala source)
+2020.07.26 22:34:22 INFO  time: compiled lens-person in 81ms
+2020.07.26 22:34:24 INFO  compiling lens-person (1 scala source)
+2020.07.26 22:34:24 INFO  time: compiled lens-person in 67ms
+Jul 26, 2020 10:34:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 91
+2020.07.26 22:34:27 INFO  compiling lens-person (1 scala source)
+2020.07.26 22:34:27 INFO  time: compiled lens-person in 0.14s
+2020.07.26 22:34:36 INFO  compiling lens-person (1 scala source)
+2020.07.26 22:34:36 INFO  time: compiled lens-person in 82ms
+2020.07.26 22:34:36 INFO  compiling lens-person (1 scala source)
+2020.07.26 22:34:36 INFO  time: compiled lens-person in 46ms
+2020.07.26 22:34:47 INFO  compiling lens-person (1 scala source)
+2020.07.26 22:34:47 INFO  time: compiled lens-person in 0.12s
+2020.07.26 22:34:47 INFO  compiling lens-person (1 scala source)
+2020.07.26 22:34:47 INFO  time: compiled lens-person in 76ms
+2020.07.26 22:35:13 INFO  compiling lens-person (1 scala source)
+2020.07.26 22:35:13 INFO  time: compiled lens-person in 0.17s
+2020.07.26 22:35:13 INFO  compiling lens-person (1 scala source)
+2020.07.26 22:35:13 INFO  time: compiled lens-person in 0.15s
+2020.07.26 22:35:20 INFO  compiling lens-person (1 scala source)
+2020.07.26 22:35:20 INFO  time: compiled lens-person in 0.16s
+2020.07.26 22:35:20 INFO  compiling lens-person (1 scala source)
+2020.07.26 22:35:20 INFO  time: compiled lens-person in 0.15s
+2020.07.26 22:35:27 INFO  compiling lens-person (1 scala source)
+2020.07.26 22:35:27 INFO  time: compiled lens-person in 48ms
+2020.07.26 22:35:27 INFO  compiling lens-person (1 scala source)
+2020.07.26 22:35:27 INFO  time: compiled lens-person in 41ms
+2020.07.26 22:35:36 INFO  compiling lens-person (1 scala source)
+2020.07.26 22:35:36 INFO  time: compiled lens-person in 45ms
+2020.07.26 22:35:36 INFO  compiling lens-person (1 scala source)
+2020.07.26 22:35:36 INFO  time: compiled lens-person in 54ms
+2020.07.26 22:35:45 INFO  compiling lens-person (1 scala source)
+2020.07.26 22:35:45 INFO  time: compiled lens-person in 43ms
+2020.07.26 22:35:45 INFO  compiling lens-person (1 scala source)
+2020.07.26 22:35:45 INFO  time: compiled lens-person in 68ms
+2020.07.26 22:35:46 INFO  compiling lens-person (1 scala source)
+2020.07.26 22:35:46 INFO  time: compiled lens-person in 0.14s
+2020.07.26 22:35:58 INFO  compiling lens-person (1 scala source)
+2020.07.26 22:35:58 INFO  time: compiled lens-person in 0.12s
+2020.07.26 22:35:58 INFO  compiling lens-person (1 scala source)
+2020.07.26 22:35:58 INFO  time: compiled lens-person in 0.14s
+2020.07.26 22:36:29 INFO  compiling lens-person (1 scala source)
+2020.07.26 22:36:29 INFO  time: compiled lens-person in 0.17s
+2020.07.26 22:36:29 INFO  compiling lens-person (1 scala source)
+2020.07.26 22:36:29 INFO  time: compiled lens-person in 0.16s
+something's wrong: no file:///home/mateusz/Projekty/exercism/scala/lens-person/src/main/scala/LensPerson.scala in LensPerson.Person => LensPerson.PersonRangePosition(file:///home/mateusz/Projekty/exercism/scala/lens-person/src/main/scala/LensPerson.scala, 780, 787, 796)
+2020.07.26 22:37:27 INFO  compiling lens-person (1 scala source)
+2020.07.26 22:37:27 INFO  time: compiled lens-person in 55ms
+2020.07.26 22:37:27 INFO  compiling lens-person (1 scala source)
+2020.07.26 22:37:27 INFO  time: compiled lens-person in 36ms
+2020.07.26 22:37:39 INFO  compiling lens-person (1 scala source)
+2020.07.26 22:37:39 INFO  time: compiled lens-person in 80ms
+2020.07.26 22:37:39 INFO  compiling lens-person (1 scala source)
+2020.07.26 22:37:39 INFO  time: compiled lens-person in 47ms
+2020.07.26 22:37:47 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...

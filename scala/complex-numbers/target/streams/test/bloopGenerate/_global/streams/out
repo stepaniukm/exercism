@@ -1,0 +1,4 @@
+[debug] [complex-numbers-test] Classpath dependencies List()
+[debug] [complex-numbers-test] Dependencies from configurations List(complex-numbers)
+[debug] Bloop wrote the configuration of project 'complex-numbers-test' to '/home/mateusz/Projekty/exercism/scala/complex-numbers/.bloop/complex-numbers-test.json'
+[success] Generated .bloop/complex-numbers-test.json
