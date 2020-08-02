@@ -30,7 +30,7 @@ version = Version [2,4,0,10] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
 bindir     = "/home/mateusz/Projekty/exercism/haskell/clock/.stack-work/install/x86_64-linux/bddd7f9be37748fd1c37108c733214fef808d3ec4fc11de2b6ec3ac4d74bb20e/8.8.3/bin"
-libdir     = "/home/mateusz/Projekty/exercism/haskell/clock/.stack-work/install/x86_64-linux/bddd7f9be37748fd1c37108c733214fef808d3ec4fc11de2b6ec3ac4d74bb20e/8.8.3/lib/x86_64-linux-ghc-8.8.3/exercism-clock-2.4.0.10-BpR0a4JwmNp2XE5FBleznh"
+libdir     = "/home/mateusz/Projekty/exercism/haskell/clock/.stack-work/install/x86_64-linux/bddd7f9be37748fd1c37108c733214fef808d3ec4fc11de2b6ec3ac4d74bb20e/8.8.3/lib/x86_64-linux-ghc-8.8.3/exercism-clock-2.4.0.10-FmvBWMAutlmAipV2pJIvLa"
 dynlibdir  = "/home/mateusz/Projekty/exercism/haskell/clock/.stack-work/install/x86_64-linux/bddd7f9be37748fd1c37108c733214fef808d3ec4fc11de2b6ec3ac4d74bb20e/8.8.3/lib/x86_64-linux-ghc-8.8.3"
 datadir    = "/home/mateusz/Projekty/exercism/haskell/clock/.stack-work/install/x86_64-linux/bddd7f9be37748fd1c37108c733214fef808d3ec4fc11de2b6ec3ac4d74bb20e/8.8.3/share/x86_64-linux-ghc-8.8.3/exercism-clock-2.4.0.10"
 libexecdir = "/home/mateusz/Projekty/exercism/haskell/clock/.stack-work/install/x86_64-linux/bddd7f9be37748fd1c37108c733214fef808d3ec4fc11de2b6ec3ac4d74bb20e/8.8.3/libexec/x86_64-linux-ghc-8.8.3/exercism-clock-2.4.0.10"

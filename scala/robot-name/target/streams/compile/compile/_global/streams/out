@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/mateusz/Projekty/exercism/scala/robot-name/src/main/scala/RobotName.scala:7:14: not found: value round[0m
+[0m[[0m[31merror[0m] [0m[0m    alphabet(round((random() * alphabet.length)).toInt)[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

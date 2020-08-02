@@ -1,0 +1,4 @@
+[debug] [robot-name] Classpath dependencies List()
+[debug] [robot-name] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'robot-name' to '/home/mateusz/Projekty/exercism/scala/robot-name/.bloop/robot-name.json'
+[success] Generated .bloop/robot-name.json

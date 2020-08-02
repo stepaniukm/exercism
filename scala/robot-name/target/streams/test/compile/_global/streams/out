@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/mateusz/Projekty/exercism/scala/robot-name/src/test/scala/RobotNameTest.scala:29:11: value reset is not a member of Robot[0m
+[0m[[0m[31merror[0m] [0m[0m    robot.reset()[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

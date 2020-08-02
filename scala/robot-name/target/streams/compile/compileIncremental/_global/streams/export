@@ -1,0 +1,1 @@
+scalac -classpath /home/mateusz/Projekty/exercism/scala/robot-name/target/scala-2.12/classes -bootclasspath /home/mateusz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar /home/mateusz/Projekty/exercism/scala/robot-name/src/main/scala/RobotName.scala

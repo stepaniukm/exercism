@@ -1,0 +1,19 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mRobotNameSpecs:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- has a name *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.IndexOutOfBoundsException: 26[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.NumericRange.apply(NumericRange.scala:113)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at Robot.randLetter(RobotName.scala:7)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at Robot.<init>(RobotName.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at RobotNameSpecs.$anonfun$new$1(RobotNameTest.scala:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FunSpecLike$$anon$1.apply(FunSpecLike.scala:454)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- does not change its name[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- does not have the same name as other robots[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- can have its name reset *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  "nh397.2607322938832" did not fully match the regular expression [A-Z]{2}\d{3} (RobotNameTest.scala:29)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[33m- a large number of new instances have unique names !!! IGNORED !!![0m[0m

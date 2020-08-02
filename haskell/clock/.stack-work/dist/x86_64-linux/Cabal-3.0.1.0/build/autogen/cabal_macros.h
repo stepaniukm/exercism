@@ -155,10 +155,10 @@
 #endif /* MIN_TOOL_VERSION_strip */
 
 #ifndef CURRENT_PACKAGE_KEY
-#define CURRENT_PACKAGE_KEY "exercism-clock-2.4.0.10-BpR0a4JwmNp2XE5FBleznh"
+#define CURRENT_PACKAGE_KEY "exercism-clock-2.4.0.10-FmvBWMAutlmAipV2pJIvLa"
 #endif /* CURRENT_PACKAGE_KEY */
 #ifndef CURRENT_COMPONENT_ID
-#define CURRENT_COMPONENT_ID "exercism-clock-2.4.0.10-BpR0a4JwmNp2XE5FBleznh"
+#define CURRENT_COMPONENT_ID "exercism-clock-2.4.0.10-FmvBWMAutlmAipV2pJIvLa"
 #endif /* CURRENT_COMPONENT_ID */
 #ifndef CURRENT_PACKAGE_VERSION
 #define CURRENT_PACKAGE_VERSION "2.4.0.10"
